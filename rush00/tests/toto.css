@@ -1,0 +1,1110 @@
+@charset "UTF-8";
+.container_9{margin:0 auto;width:980px}
+
+
+.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9{display:inline;float:left;position:relative;margin-right:20px}
+
+.alpha{margin-left:0}
+
+.omega{margin-right:0}
+
+.container_9 .grid_1{width:91px}
+
+.container_9 .grid_2{width:202px}
+.container_9 .grid_3{width:313px}
+.container_9 .grid_4{width:424px}
+.container_9 .grid_5{width:535px}
+.container_9 .grid_6{width:646px}
+.container_9 .grid_7{width:757px}
+.container_9 .grid_8{width:868px}
+.container_9 .grid_9{width:979px}
+.container_9 .prefix_1{padding-left:111px}
+.container_9 .prefix_2{padding-left:222px}
+.container_9 .prefix_3{padding-left:333px}
+.container_9 .prefix_4{padding-left:444px}
+.container_9 .prefix_5{padding-left:555px}
+.container_9 .prefix_6{padding-left:666px}
+.container_9 .prefix_7{padding-left:777px}
+.container_9 .prefix_8{padding-left:888px}
+.container_9 .suffix_1{padding-right:111px}
+.container_9 .suffix_2{padding-right:222px}
+.container_9 .suffix_3{padding-right:333px}
+.container_9 .suffix_4{padding-right:444px}
+.container_9 .suffix_5{padding-right:555px}
+.container_9 .suffix_6{padding-right:666px}
+.container_9 .suffix_7{padding-right:777px}
+.container_9 .suffix_8{padding-right:888px}
+.container_9 .push_1{left:111px}
+.container_9 .push_2{left:222px}
+.container_9 .push_3{left:333px}
+.container_9 .push_4{left:444px}
+.container_9 .push_5{left:555px}
+.container_9 .push_6{left:666px}
+.container_9 .push_7{left:777px}
+.container_9 .push_8{left:888px}
+.container_9 .pull_1{left:-111px}
+.container_9 .pull_2{left:-222px}
+.container_9 .pull_3{left:-333px}
+.container_9 .pull_4{left:-444px}
+.container_9 .pull_5{left:-555px}
+.container_9 .pull_6{left:-666px}
+.container_9 .pull_7{left:-777px}
+.container_9 .pull_8{left:-888px}
+.clear{}
+html{padding:0;margin:0}
+body{margin:0;padding:0;font-family:'Montserrat',sans-serif;background:#fff;min-height:100%;color:#333}
+a{color:#333}
+a:hover{color:#333;text-decoration:none}
+a:focus{outline:none !important;color:#333;text-decoration:none !important}
+.spacer{clear:both}
+input:focus,select:focus,textarea:focus,button:focus{outline:none}
+.img-center{margin-left:auto;margin-right:auto}
+.unvisible{display:none}
+.video-container{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden}
+.video-container iframe,.video-container object,.video-container embed{position:absolute;top:0;left:0;width:100%;height:100%}
+@keyframes carousel{0%{top:0}
+22%{top:0}
+25%{top:-100%}
+47%{top:-100%}
+50%{top:-200%}
+72%{top:-200%}
+75%{top:-300%}
+97%{top:-300%}
+100%{top:0}
+}
+#topBar{display:none;background:#edece9;padding:8px 5px;font-size:0.9em}
+#topBarRight{float:right}
+#topBarLang{float:left;width:auto;height:auto;text-align:center;padding:0 5px;font-size:1.2em;position:relative}
+#topBarLang i{float:right;margin-top:5px;margin-left:5px}
+#topBarLang:hover #mobilelangSelector{display:block}
+#mobilelangSelector{position:absolute;z-index:1000;display:none;right:0;top:22px;min-width:40px;width:100%;background:#fff;box-shadow:0 0 20px 5px rgba(0,0,0,0.3);padding:2px 10px;list-style:none}
+#mobilelangSelector > li{padding:3px 0}
+#mobilelangSelector:before{position:absolute;width:100%;height:20px;background:transparent;top:-20px;left:0;content:'.';overflow:hidden;text-indent:5000px}
+#header{padding:15px 15px;border-bottom:1px solid #edece9;position:relative}
+#openMenu{display:none;width:40px;height:40px;position:absolute;margin-top:-22px;top:50%;right:15px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/nav.svg) center center no-repeat}
+#logoVISCOMTEAdark{width:340px;height:76px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/logo-vicomtea-dark.svg) center center no-repeat;background-size:340px 76px;display:block;position:relative;margin-top:-10px;margin-left:auto;margin-right:auto;box-sizing:border-box;transition:all .2s ease-in-out}
+#topBarLeft a{margin:0 5px}
+#topBarLeft a span{margin-left:4px}
+#headerSearch{float:right;margin-top:10px;margin-right:15px;position:relative}
+#searchMobile{display:none}
+#searchMobileClose{display:none;width:40px;height:40px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/close.svg);position:absolute;right:20px;top:20px}
+#headerSearch input#searchInput{border:1px solid #edece9;padding:10px 10px 10px 40px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnSearch.png) 10px center no-repeat}
+#searchMobile{padding:10px 20px 10px 0;border-right:1px solid #edece9}
+@media (min-width:1468px){#searchInputCont{display:block !important}
+#searchMobileClose{display:none !important}
+#searchInputCont #searchSubmit{display:none}
+}
+@media (max-width:1467px){#searchInputCont{display:none}
+#searchMobileClose{display:block}
+}
+@media (min-width:768px) and (max-width:1466px){#searchMobile{display:block}
+#headerSearch{position:static !important}
+#searchInputCont{position:fixed;z-index:2000;width:100%;height:100%;padding:20%;left:0;top:0;background:rgba(255,255,255,0.98);content:'.';overflow:hidden;text-indent:5000px}
+#searchInputCont #searchInput{width:calc(100% - 100px);position:relative;display:block;height:60px;font-size:2em;background-color:#fff !important;float:left}
+#searchInputCont #searchSubmit{display:block;width:100px;text-align:center;float:left;height:60px;line-height:50px;font-size:1.8em;color:#fff;background:#2b2a3d;border:none}
+}
+#mobileInput{padding:10px;border:none;width:calc(100% - 40px);height:40px;float:left}
+#mobileSubmit{float:left;width:40px;height:40px;background:#bc1f4d;border:none;color:#fff}
+#mobileSearchCont{background:#fff;border-bottom:1px solid #edece9;display:none;height:41px}
+#mobileSearchCont:hover{background:#cd2859}
+#headerRight{float:right;margin-top:17px;margin-right:15px}
+#headerLeft{float:left;margin-top:22px;margin-left:0;font-weight:600}
+#vcCart{float:left}
+#vcCart .cart_block{display:none;position:absolute;background:#fff;box-shadow:0 0 10px rgba(0,0,0,0.5);padding:20px;width:400px;right:0;z-index:9999}
+#vcCompte{float:left;margin-right:20px}
+#vcCompte a{display:block;line-height:30px;font-weight:600;text-transform:uppercase}
+#cartIcn{display:block;width:auto;padding-right:40px;height:30px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnCart.svg) center right no-repeat;background-size:40px 30px;position:relative}
+#cartIcn span.badge{width:22px;height:22px;border-radius:50%;position:absolute;font-weight:400;right:-15px;top:0;background:#bc1f4d;padding:5px 0;font-size:12px;text-align:center}
+#cartIcn span.cartName{padding-right:10px;display:block;line-height:30px;font-weight:600}
+#vcCart .products > dt{margin-bottom:20px;position:relative}
+.remove_link{position:absolute;right:0;top:0}
+#vcCart .products > dt:after{display:table;clear:both}
+.product-name{text-transform:uppercase;font-weight:500;display:block}
+.cartItemOptions{font-weight:normal;font-size:0.9em;display:block}
+.quantity-formated{font-weight:normal;font-size:0.9em;display:block}
+.cartItemPrice{font-weight:normal;font-size:1.1em;margin-top:10px;display:block}
+.cartItemImg{float:left;width:90px;height:90px;background-position:center center;background-size:100% auto;background-repeat:no-repeat;background-color:#fff;box-shadow:0 0 10px rgba(0,0,0,0.2);margin-right:20px}
+#blockCartTotal{padding:10px 0;border-bottom:1px solid #ebebeb}
+#blockCartTotal strong{float:left;text-transform:uppercase;font-weight:normal;letter-spacing:1px;font-size:1.2em}
+#blockCartTotal span.price{float:right;color:#272e8f;font-weight:500;font-size:1.2em}
+#cartSubmit{padding:10px 50px;margin-left:auto;display:block;text-transform:uppercase;font-size:1.2em;color:#fff;background:#00a76e;text-align:center;border:none;width:100%;margin-top:15px}
+#cartSubmit:hover{background:#0bc082}
+.a-store{padding:5px 0}
+.a-store .store-name{font-weight:600}
+#vcCompte{float:left;margin-right:20px}
+#vcCompte a{display:block;line-height:30px;font-weight:600;text-transform:uppercase}
+#cartIcn{display:block;width:auto;padding-right:40px;height:30px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnCart.svg) center right no-repeat;background-size:40px 30px;position:relative}
+#cartIcn span.badge{width:22px;height:22px;border-radius:50%;position:absolute;font-weight:400;right:-15px;top:0;background:#bc1f4d;padding:5px 0;font-size:12px;text-align:center}
+#cartIcn span.cartName{padding-right:10px;display:block;line-height:30px;font-weight:600}
+#headerBoutiques{padding:0;margin:0;float:left;margin-right:20px}
+#headerBoutiques i{margin-right:5px}
+#headerLang{float:left;margin-right:20px;line-height:17px;position:relative}
+#headerLang i{float:right;margin-top:3px;margin-left:5px}
+#langSelector{position:absolute;z-index:1000;display:none;left:-10px;top:22px;min-width:40px;width:100%;background:#fff;box-shadow:0 0 20px 5px rgba(0,0,0,0.3);padding:2px 10px;list-style:none}
+#langSelector > li{padding:3px 0}
+#langSelector:before{position:absolute;width:100%;height:20px;background:transparent;top:-20px;left:0;content:'.';overflow:hidden;text-indent:5000px}
+#headerLang:hover #langSelector{display:block}
+#headerTel{float:left}
+#headerTel i{margin-right:5px}
+.myaccount_lnk_list{list-style:none;padding:0;margin:20px 0 0 0}
+.myaccount_lnk_list li{padding:10px;background:#fff;border:1px solid #edece9;border-radius:10px;margin-bottom:10px}
+@media (min-width:768px){#navigation{border-bottom:1px solid #edece9;position:relative;padding-left:15px;padding-right:15px;display:block !important}
+#navigation span#freeDelivry{position:absolute;text-transform:uppercase;font-size:0.9em;margin-top:-10px;top:50%;font-weight:700;letter-spacing:0.1em}
+#navigation span#freeDelivry strong{font-weight:inherit;color:#bc204e;letter-spacing:0.1em}
+#navigation ul{padding:0;margin:0;list-style:none;text-align:center}
+#navigation ul li{display:inline-block}
+#navigation ul li.current a{background:#2b2a3d;color:#fff}
+#navigation ul li a{display:block;text-transform:uppercase;font-weight:700;font-size:1.1em;padding:15px 20px}
+#mobileHome{display:none}
+#navClose{display:none}
+}
+@media (max-width:767px){#navClose{display:block;width:40px;height:40px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/close.svg);position:absolute;right:20px;top:20px;cursor:pointer}
+#mobileHome{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/logo-vicomtea-dark.svg) center center no-repeat;display:block;position:relative;margin-left:auto;margin-right:auto;box-sizing:border-box;transition:all .2s ease-in-out;width:180px;height:39px;background-size:180px 39px;margin:30px auto 30px}
+#navigation{position:fixed;width:100%;height:100%;background:rgba(255,255,255,0.98);z-index:2000;left:0;top:0;overflow-y:auto;display:none}
+#navigation ul{padding:0;margin:0;list-style:none;text-align:center}
+#navigation ul li{display:block;border-bottom:1px solid #edece9}
+#navigation ul li.current a{background:#2b2a3d;color:#fff}
+#navigation ul li a{display:block;text-transform:uppercase;font-weight:700;font-size:1.1em;padding:15px 20px}
+}
+#wrapper{overflow-x:hidden}
+.section{padding-top:60px;padding-bottom:60px}
+.section.full{padding-left:30px;padding-right:30px}
+.section-title{text-align:center;line-height:normal;margin-bottom:30px;font-size:2.4em;font-weight:300}
+.section-title em{display:block;font-style:normal;color:#c42557;font-weight:300}
+.section-title strong{display:block;font-style:normal;font-weight:800;font-size:1.4em;text-transform:uppercase}
+.section-title b{font-style:normal;font-weight:400}
+.section-reassurance{margin-top:0;padding-top:30px;padding-bottom:30px;background:#fcfbf7}
+.section-reassurance ul{display:table;width:100%;padding:0;margin:0;list-style:none}
+.section-reassurance ul > li{display:table-cell;width:25%;vertical-align:middle;font-size:0.9em;padding-top:10px;padding-bottom:10px;color:#999}
+.section-reassurance ul > li strong{text-transform:uppercase;display:block;color:#555}
+.page-heading{text-align:center;line-height:normal;margin-bottom:30px;font-size:2.4em;font-weight:300}
+.tileCont{overflow:hidden;position:relative}
+.section-collection{background:#fcfbf7}
+.home-tile{display:block;position:relative;overflow:hidden}
+.home-tile span.tile-img{background-size:cover;background-repeat:no-repeat;background-position:center center;transition:all .2s ease-in-out;position:absolute;width:100%;height:100%}
+.home-tile span.tile-link{position:absolute;text-align:center;width:100%;bottom:20px;color:#fff;text-transform:uppercase;zoom:1;z-index:100}
+.home-tile span.tile-link i.fa{margin-left:5px}
+.home-tile.large{height:650px;width:100%}
+.home-tile.medium{height:290px;width:100%}
+#home-about{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/bgHomeAbout.jpg);background-size:cover;display:table;margin-top:30px;min-height:330px;width:100%}
+#home-aboutcont{display:table-cell;vertical-align:middle;padding:20px 300px 20px 80px;color:#2b2a3d}
+#home-aboutcont h4{text-transform:uppercase;padding:0;margin:0 0 10px 0;font-size:1.5em;font-weight:400}
+#home-aboutcont h4 strong{font-weight:inherit}
+#home-aboutcont p{line-height:1.6em;font-size:1em;letter-spacing:0.1em}
+#aboutcontReadmore{text-transform:uppercase;font-weight:600;font-size:1.1em;letter-spacing:0.1em}
+#home-aboutSocial{margin-top:20px}
+#home-aboutSocial ul{padding:0;margin:0;list-style:none}
+#home-aboutSocial ul > li{display:inline-block;font-size:1.5em;margin-right:15px}
+#home-aboutSocial ul > li:last-child{margin-right:0}
+#home-aboutSocial ul > li > a{color:#c42557}
+#home-reassurance{margin-top:0;padding-top:0;padding-bottom:30px}
+#home-reassurance ul{display:table;width:100%;padding:0;margin:0;list-style:none}
+#home-reassurance ul > li{display:table-cell;width:25%;vertical-align:middle;font-size:0.9em;padding-top:10px;padding-bottom:10px;color:#999}
+#home-reassurance ul > li strong{text-transform:uppercase;display:block;color:#555}
+.icn1{padding-left:70px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icn01.svg) left center no-repeat;background-size:50px auto}
+.icn2{padding-left:70px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icn02.svg) 10px center no-repeat;background-size:30px auto}
+.icn3{padding-left:65px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icn03.svg) left center no-repeat;background-size:50px auto}
+.icn4{padding-left:65px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icn04.svg) left center no-repeat;background-size:50px auto}
+.section-collection > div.container > div.collection-item:last-child{margin-bottom:0}
+.collection-item{margin-bottom:60px}
+.section-collection div.col-sm-pull-5{text-align:right}
+.collection-title{line-height:normal;margin-bottom:20px}
+.collection-title em{display:block;font-style:normal;color:#2b2a3d;font-size:2.4em;font-weight:300}
+.collection-title strong{display:block;font-style:normal;color:#2b2a3d;font-size:2.8em;font-weight:700;text-transform:uppercase}
+.add-collec{display:block;padding:30px 15px;background:#fff}
+.add-collec > span{display:block;text-transform:uppercase;font-weight:700;font-size:1.1em;text-align:center;margin-top:15px}
+.add-collec > span{margin-left:4px}
+.section-histoire > div.container > .histoire-row{margin-bottom:60px}
+.section-histoire > div.container > .histoire-row:last-child{margin-bottom:0 !important}
+.histoire-text{padding:50px;line-height:1.8em;font-size:1.2em}
+.histoire-title{line-height:normal;margin-bottom:20px}
+.histoire-title em{display:block;font-style:normal;color:#c42557;font-size:2.4em;font-weight:300}
+.histoire-title strong{display:block;font-style:normal;color:#2b2a3d;font-size:2.8em;font-weight:800;text-transform:uppercase}
+.vcaLink{display:block;text-transform:uppercase;font-weight:700;font-size:1.1em;margin-top:40px}
+.vcaLink i{margin-left:4px}
+.collection-text{padding:0 35px}
+#category-header{margin-bottom:30px}
+#category-name{text-align:center;text-transform:uppercase;padding:0;margin:0;font-size:2.4em;font-weight:400}
+#category-filter{text-align:center;margin-top:20px}
+.section-pourquoiva{background:#fcfbf7 url(https://www.vicomte-a.com/themes/vicomtea/css/../img/logoSection.svg) center right 20px no-repeat;background-size:auto 100%}
+.section-pqva-text{line-height:1.6em;font-size:1.1em;text-align:justify}
+.product-grid{list-style:none;padding:0;margin:0 -10px;position:relative}
+.product-grid li{width:31.333%;float:left;margin:1%}
+.product-grid > li:nth-child(3n+1){clear:left}
+.item-image{display:block;padding:20px;background:#FFFFFF;transition:all .2s ease-in-out;width:100%}
+.product-grid li:hover .item-image{background:#fff}
+.item-image img{max-height:250px;width:auto;margin:0 auto}
+.item-name{margin-top:15px;color:#2b2a3d;font-size:1.2em;text-align:center;display:block}
+.item-price{color:#7f7f7f;display:block;text-align:center}
+.item-price em{font-style:normal;text-decoration:line-through;margin-left:4px;color:#a7a6a6}
+@media (max-width:767px){.product-grid{margin:0 !important}
+.product-grid li{width:100%;display:block;margin:5px 0}
+}
+@media (min-width:768px) and (max-width:991px){.product-grid > li:nth-child(3n+1){clear:inherit}
+.product-grid > li:nth-child(2n+1){clear:left}
+.product-grid li{width:48%;margin:1%}
+}
+.sidebarMobile.sidebar-open i.fa{transform:rotate(180deg)}
+#categorie-sidebar h3{padding:0;margin:0;font-size:23px;font-weight:700;text-transform:uppercase}
+#catnav{padding:0;margin:10px 0 0 0;list-style:none}
+#catnav > li{padding:7px 0}
+#catnav > li.sep{border-top:1px solid #cec9cb;padding-top:20px;margin-top:20px}
+#catnav > li > a{font-size:1.2em;text-transform:uppercase}
+#catnav > li > ul{padding:0;margin:5px 0 5px 15px;list-style:none}
+#catnav > li > ul > li{padding:2px 0;font-size:1.1em}
+#categorie-sidebar ul.tree{padding:0;margin:10px 0 0 0;list-style:none}
+#categorie-sidebar ul.tree > li{padding:7px 0}
+#categorie-sidebar ul.tree > li > a{font-size:1em;text-transform:uppercase}
+#categorie-sidebar ul.tree > li > span.grower{font-size:1.3em;margin-left:5px}
+#categorie-sidebar ul.tree > li > ul{padding:0;margin:5px 0 5px 15px;list-style:none}
+#categorie-sidebar ul.tree > li > ul > li{padding:2px 0;font-size:1.1em}
+#page-breadcrumbs{padding:15px;color:#333}
+#page-breadcrumbs a{color:#333;font-weight:normal}
+#page-breadcrumbs span.navigation-pipe{margin:0 5px}
+#page-breadcrumbs strong span.navigation-pipe{color:#333;font-weight:normal}
+#page-breadcrumbs strong{color:#bc204e}
+.section-product-desc{background:#fff url(https://www.vicomte-a.com/themes/vicomtea/css/../img/logoSection.svg) bottom right -20% no-repeat;background-size:auto 80%}
+.section-productrecom{background:#fcfbf7}
+#image-block{position:relative;max-width:500px;margin-left:auto;margin-right:auto}
+#product-name{padding:0;margin:0;font-weight:300}
+#thumbs_list{background:#f6f6f6;width:100px}
+#thumbs_list_frame{width:auto !important;padding:5px;margin:0;list-style:none}
+#thumbs_list_frame > li{margin:15px 10px;width:70px}
+#thumbs_list_frame > li > a{display:block;background:#fff}
+#thumbs_list_frame > li > a.shown{outline:3px solid #2b2a3d !important}
+#thumbs_list_frame > li > a:hover{outline:1px solid #e8e8e8}
+#product-desc{padding-left:70px}
+#product-btn-left{width:40px;height:80px;position:absolute;left:-60px;top:50%;margin-top:-40px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnLeft.svg) center center no-repeat;background-size:33px 58px}
+#product-btn-right{width:40px;height:80px;position:absolute;right:-60px;top:50%;margin-top:-40px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnRight.svg) center center no-repeat;background-size:33px 58px}
+.product-available{margin:10px 0}
+.product-available.available i{margin-right:5px;color:#00a76e}
+.product-available.out i{margin-right:5px;color:#950808}
+.product-subline{padding:0;margin:0 0 10px 0;font-size:1.2em;font-weight:300}
+.product-price{font-size:2em;font-weight:300}
+#addTocart{background:#312f44;padding:15px 20px;margin-right:10px;margin-top:5px;margin-bottom:5px;display:inline-block;border:none;text-transform:uppercase;color:#fff;font-weight:600;transition:all .2s ease-in-out}
+#addTocart:hover{background:#54526e;color:#fff}
+#product-takestore{background:transparent;padding:14px 19px;margin-top:5px;margin-bottom:5px;border:1px solid #312f44;display:inline-block;text-transform:uppercase;color:#312f44;font-weight:600;transition:all .2s ease-in-out}
+#product-takestore:hover{border:1px solid #54526e;color:#54526e}
+#product-eta{margin-top:10px}
+#product-eta strong{font-weight:600}
+.product_attributes{margin-bottom:15px}
+.product_attributes label{display:block;font-weight :300}
+#old_price_display{font-size:0.7em;font-weight:300;text-decoration:line-through;color:#a4a4a4}
+#attributes .attribute_list{width:100%}
+#attributes .attribute_list .form-control{max-width:230px}
+#attributes .attribute_list .form-control option{background:#fff;color:#666}
+#attributes .attribute_list ul{clear:both}
+#attributes .attribute_list ul li{float:left;margin-right:10px}
+#attributes .attribute_list input.attribute_radio{float:left;margin-left:3px}
+#attributes .attribute_list div.radio,#attributes .attribute_list div.radio span,#attributes .attribute_list div.radio input{float:none;display:inline-block}
+#attributes .attribute_list #color_to_pick_list{list-style-type:none;padding:0}
+#attributes .attribute_list #color_to_pick_list li{float:left;margin:5px;clear:none;width:24px;height:24px}
+#attributes .attribute_list #color_to_pick_list li a.color_pick{display:block;height:24px;width:24px;cursor:pointer}
+#attributes .attribute_list #color_to_pick_list li a.color_pick img{display:block;height:65px;width:65px}
+#attributes .attribute_list #color_to_pick_list li.selected{outline:3px solid #38374f}
+#taille_list{list-style:none;padding:0}
+#taille_list > li{float:left;margin-right:5px;overflow:visible !important}
+#taille_list > li.selected > a{outline:2px solid #2b2a3d;background:#2b2a3d;color:#fff;overflow:visible !important}
+#taille_list > li > a{display:block;overflow:visible !important;padding:5px 10px;background:#f6f6f6;transition:background .2s ease-in-out;margin:5px 0}
+#taille_list > li > a:hover{background:#dfdfdf}
+.product-desc-line{display:table;width:100%;margin-bottom:100px}
+.product-desc-line:last-child{margin-bottom:0}
+.product-desc-img{width:45%;display:table-cell;vertical-align:middle;border-right:1px solid #ccc;padding-right:50px}
+.product-desc-text{width:55%;padding:50px;display:table-cell;vertical-align:middle}
+#desc-product-name{text-transform:uppercase;display:block;font-weight:500;font-size:1.4em}
+#desc-product-ref{text-transform:uppercase;display:block;font-style:italic;font-weight:300;font-size:1.1em}
+#desc-product-long{padding:0;margin:15px 0;display:block;font-size:1.2em;line-height:2em}
+.product-var{padding:0;margin:0;list-style:none;display:block}
+.product-var > li{padding:5px 0 5px 40px;margin:15px 0;display:block}
+.product-var > li.icn-comp{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnVarComp.svg) left center no-repeat}
+.product-var > li.icn-doub{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnVarDoub.svg) left center no-repeat}
+.product-var > li.icn-lav{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnVarLav.svg) left center no-repeat}
+.product-var > li.icn-blanch{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnVarBlanch.svg) left center no-repeat}
+.product-var > li.icn-sech{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnVarSech.svg) left center no-repeat}
+.product-var > li.icn-repas{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnVarRepas.svg) left center no-repeat}
+.product-var > li.icn-nett{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnVarNett.svg) left center no-repeat}
+#product-conseils-title{text-transform:uppercase;display:block;font-weight:600;margin-bottom:20px;font-size:1.4em}
+.products-cat-grid{list-style:none;padding:0;margin:0}
+.products-cat-grid > li{list-style:none;float:left;width:23%;margin:0 1%}
+.products-cat-grid > li > a{background:#fff !important;display:block;padding:20px 5px}
+.products-cat-grid > li > a > span.item-image{background:#fff}
+#qte_cont {display:block;width:242px}
+#quantity_wanted{height:36px;float:left;width:80px;text-align:center;border:1px solid #f6f6f6}
+.button-minus{display:inline-block;width:36px;height:36px;background:#f6f6f6;transition:all .2s ease-in-out;border:1px solid #f6f6f6;float:left;margin-right:10px;line-height:36px;text-align:center}
+.button-plus{display:inline-block;width:36px;height:36px;background:#f6f6f6;transition:all .2s ease-in-out;border:1px solid #f6f6f6;float:left;margin-left:10px;line-height:36px;text-align:center}
+.button-minus:hover,.button-plus:hover{background:#2b2a3d;color:#fff}
+#add_to_cart{display:inline-block}
+#tunnel-back{float:left;font-weight:500;font-size:1.0em;text-transform:uppercase;color:#2b2a3d;margin-top:14px}
+#tunnel-back i.fa{margin-right:4px}
+#tunnel-header{background:#fcfbf7;height:auto;padding:15px 30px}
+#tunnel-topbar{border-bottom:1px solid #cec9cb;padding:15px 30px 15px 30px}
+#tunnel-cont{padding:70px 0}
+#tunnel-logo{width:230px;height:52px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/logo-vicomtea-dark.svg) center center no-repeat;background-size:230px 52px;display:block;margin-left:auto;margin-right:auto}
+#tunnel-steps{padding:0;margin:0;list-style:none;display:block;float:left}
+#tunnel-steps > li{display:inline-block;margin-right:15px;text-transform:uppercase;font-weight:500;color:#cec9cb}
+#tunnel-steps > li em{display:inline-block;width:22px;height:22px;border-radius:50%;background:#cec9cb;font-style:normal;color:#fff;text-align:center;line-height:22px}
+#tunnel-steps > li.past{color:#d1cdcf}
+#tunnel-steps > li.past em{background:#00a76e}
+#tunnel-steps > li.current{color:#2b2a3d}
+#tunnel-steps > li.current em{background:#00a76e}
+#tunnel-time{float:right;text-transform:uppercase;font-weight:500}
+#tunnel-time strong{font-weight:inherit;color:#00a76e}
+#tunnel-recap{background:#2b2a3d;color:#fff}
+#recap-title{padding:20px;font-size:1.1em;border-bottom:1px solid #fff;text-transform:uppercase}
+#tunnel-reassurance{background:#fcfbf7;margin-top:15px;padding:15px}
+#tunnel-reassurance ul{padding:0;margin:0;list-style:none}
+#tunnel-reassurance ul > li{padding-top:10px;padding-bottom:10px;color:#999;font-weight:400}
+#tunnel-reassurance ul > li > strong{display:block;color:#535250;text-transform:uppercase;font-weight:500}
+.tunnel-title{padding:0 0 25px 0;margin:0 0 25px 0;font-size:1.2em;font-weight:500;text-transform:uppercase;border-bottom:1px solid #cec9cb}
+#recap-cont{padding:30px;border-bottom:1px solid #fff}
+#recap-btn{padding:30px;background:#242435}
+#recap-btn .btn-finaliser{padding:20px;display:block;text-transform:uppercase;border:none;font-size:1.2em;color:#fff;background:#00a76e;text-align:center;width:100%}
+#discount-codeform{padding-bottom:30px;border-bottom:1px solid #5c5a68}
+#discount-text{padding:10px;border:none;color:#242435}
+#discount-submit{background:#00a76e;border:none;padding:10px}
+#subtotal{padding:20px 0;border-bottom:1px solid #5c5a68}
+#subtotal strong{float:left;text-transform:uppercase;font-weight:500;margin-top:5px}
+#subtotal span.price{float:right;font-size:1.4em;font-weight:300}
+#cart-tax{padding:20px 0;border-bottom:1px solid #5c5a68}
+#cart-tax strong{float:left;font-weight:400}
+#cart-tax span.price{float:right}
+.cart-vouchers{padding:20px 0;border-bottom:1px solid #5c5a68}
+.cart-vouchers strong{float:left;font-weight:400}
+.cart-vouchers span.price{float:right}
+#delivryfee{padding:20px 0 0 0}
+#delivryfee strong{float:left;font-weight:400}
+#delivryfee span.price{float:right}
+#delivryfee span.price.free{color:#00a76e}
+#carttotal{padding:20px 30px}
+#carttotal strong{float:left;text-transform:uppercase;font-weight:500;margin-top:5px}
+#carttotal span.price{float:right;font-size:1.4em;font-weight:300}
+.itemcart-shortdesc{display:block;font-weight:300;margin-bottom:10px;margin-top:5px}
+.itemcart-title{font-weight:600;text-transform:uppercase}
+.itemcart-qte{margin-bottom:5px}
+.itemcart-qte select{border:1px solid #cec9cb;background:#fff url(https://www.vicomte-a.com/themes/vicomtea/css/../img/arrow-select.svg) right 5px center no-repeat;display:inline-block;-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:0;padding:3px 15px 3px 10px;width:70px}
+.itemcart-price{font-weight:400;display:block;font-size:1.1em}
+.itemcart-datas{padding:0;margin:0 0 5px 0}
+.add-itemcart{padding-top:30px;padding-bottom:15px;border-bottom:1px solid #cec9cb;position:relative;margin:0 15px;position:relative}
+#cart-cont > div.add-itemcart:first-child{padding-top:0}
+.itemcart-delete{position:absolute;right:20px;color:#4a4a4a;top:0}
+.form-cart{margin-bottom:40px}
+.form-cart label.control-label{font-weight:400;text-align:left}
+.form-cart label.control-label span{color:#00a76e}
+.cart-section{border-bottom:1px solid #cec9cb;padding-bottom:30px}
+.item-delivry{padding:0;margin:0}
+.item-delivry strong{font-weight:normal;color:#00a76e}
+.tunnel-buttons{margin-top:30px}
+#required-field{color:#3e3d3c}
+#required-field span{color:#00a76e}
+#recap-btn .btn-finaliser:hover{background:#0bc082}
+#discount-submit:hover{background:#0bc082}
+.alert ul{padding:0 0 10px 0;margin:0 0 10px 0;border-bottom:1px solid rgba(0,0,0,0.2);list-style:none}
+.loginRow{display:block;margin-bottom:15px}
+.loginRow .input-text{display:block;padding:10px 10px;border:1px solid #cec9cb;border-radius:0;height:auto}
+.loginSubmitIn input,.form-submit button,.submit2 #submitAddress,.panier-btn{padding:10px 50px;margin-left:auto;display:block;text-transform:uppercase;font-size:1.2em;color:#fff;background:#312f44;text-align:center;border:none;border-radius:0;transition:all .2s ease-in-out}
+.loginSubmitIn input:hover,.form-submit button:hover,.submit2 #submitAddress:hover,.panier-btn:hover{background:#54526e;color:#fff}
+.panier-btn.nofloat{float:none;display:inline-block}
+.panier-btn.nofloat.transparent{background:transparent;color:#2b2a3d;text-transform:none}
+#pwlost{float:left}
+p.textarea textarea{display:block;width:100%}
+#SubmitLogin{float:right}
+.form-group-radio{margin-bottom:10px}
+.form-group-radio label,.form-group label{font-weight:inherit}
+.register-submit{margin-top:30px}
+#submitAccount{float:right}
+.form-control{border-radius:0;box-shadow:none}
+.submit2{margin-top:20px}
+.submit2 #required-field{float:left}
+.addresses ul.address .address_title{background:#00a76e !important}
+ul.address li.address_title{background:#00a76e !important}
+#account_creation .checkbox input[type=checkbox],#account_creation .checkbox-inline input[type=checkbox],#account_creation .radio input[type=radio],#account_creation .radio-inline input[type=radio]{margin-left:-20px !important}
+.addressesAreEquals label{margin-left:0}
+#cartSummaryBot{margin-top:30px}
+.addresses ul.address{margin:0 !important;width:100% !important}
+ul.address{margin:0 !important;width:100% !important;padding:0 !important}
+#address_invoice_form{padding-bottom:20px}
+.livraisonTitle{text-align:center;margin:0 0 30px 0;padding:0;font-weight:400;font-size:2.2em;color:#000}
+.livraison-section{margin-bottom:30px;margin-top:20px}
+.livraison-section input#cgv{margin-left:0}
+.livraison-section input#gift{margin-left:0}
+.livraisonMethod{display:block;background-color:#fff;background-position:right 15px center;background-repeat:no-repeat;padding:20px 130px 20px 20px;margin-bottom:10px;font-size:1.2em;font-weight:400;border:1px solid #fff}
+.livraisonMethod span.circle{width:20px;height:20px;display:inline-block;background:#fff;position:relative;bottom:-3px;margin-right:10px;border:1px solid #acacac;border-radius:50%}
+.livraisonMethod:hover{border:1px solid #cec9cb}
+.livraisonMethod:hover span.circle{background:#00a76e;border:1px solid #3eda00}
+.livraisonMethod:hover span.circle:before{width:8px;height:8px;background:#fff;position:absolute;left:50%;top:50%;content:'.';overflow:hidden;text-indent:5000px;border-radius:50%;margin-left:-4px;margin-top:-4px}
+.livraisonMethod.selected{border:1px solid #cec9cb}
+.livraisonMethod.selected span.circle{background:#00a76e;border:1px solid #3eda00}
+.livraisonMethod.selected span.circle:before{width:8px;height:8px;background:#fff;position:absolute;left:50%;top:50%;content:'.';overflow:hidden;text-indent:5000px;border-radius:50%;margin-left:-4px;margin-top:-4px}
+.livraisonMethod.colissimo{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/imgColissimo.png) right 10px center no-repeat #fff}
+.livraisonMethod.tnt{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/imgTNT.png) right 10px center no-repeat #fff}
+.livraisonMethod strong{font-weight:400;color:#00a76e}
+#paiementTitle{text-align:center;margin:40px 0 50px 0;padding:0;font-weight:400;font-size:2.2em;color:#000}
+.paiementSectionTitle{padding:0;margin:0 0 15px 0;text-align:left;font-weight:400;font-size:1.8em;color:#000}
+.paiementMethod{display:inline-block;line-height:48px;margin-right:10px}
+.paiementMethod > input{margin-right:5px}
+.paiementMethod > img{display:inline-block;max-width:100%}
+.paiementMethod > span{display:inline-block;padding:5px;height:40px;margin:5px 5px;line-height:30px;border-radius:5px;background:#e3e3e3;color:#000}
+#paiementTable{margin-bottom:15px}
+#paiementSectionBot{padding-top:15px;margin-top:15px;border-top:1px solid #cccccc}
+#paiementCGV{margin-bottom:10px}
+#paiementCGV input{margin-right:4px}
+#paiementBtn{text-align:center;margin-top:15px}
+.carrier_title{padding:0 0 20px 0;margin:0}
+#recapTableHeader{display:table;width:100%;text-align:center;font-size:0.9em;color:#999999}
+#recapTableHeaderTitle{display:table-cell;width:220px}
+#recapTableHeaderPrice{display:table-cell;width:60px}
+#recapTableHeaderQte{display:table-cell;width:60px}
+#recapTableHeaderTotal{display:table-cell;width:60px;text-align:right}
+.recapTableLine{display:table;width:100%;vertical-align:middle;padding:3px 0}
+.recapTableTitle{display:table-cell;width:220px;vertical-align:middle}
+.recapTableTitle a{color:#fff;font-size:1em;font-weight:500}
+.recapTableTitle em{font-style:normal;display:block;font-size:0.8em;color:#999999}
+.recapTablePrice{display:table-cell;width:60px;text-align:center;font-size:1em;vertical-align:middle}
+.recapTablePrice em{position:relative;font-style:normal;bottom:-2px;font-size:.7em;line-height:.8em;vertical-align:super;text-decoration:none;margin-left:2px}
+.recapTableQte{display:table-cell;width:60px;text-align:center;vertical-align:middle}
+.recapTableTotal{display:table-cell;width:60px;text-align:right;font-size:1em;font-weight:500;vertical-align:middle}
+.recapTableTotal em{position:relative;font-style:normal;bottom:-2px;font-size:.7em;line-height:.8em;vertical-align:super;text-decoration:none;margin-left:2px}
+#recapTableCode{display:table;width:100%;vertical-align:middle;padding:3px 0}
+#recapTableCodeLeft{display:table-cell;vertical-align:middle;width:auto;text-align:left;color:#fff;font-size:1em;font-weight:500}
+#recapTableCodeRight{display:table-cell;vertical-align:middle;width:auto;text-align:right}
+#recapTableCodeRight strong{color:#fff}
+#recapTableLivraison{display:table;width:100%;vertical-align:middle;padding:3px 0}
+#recapTableLivraisonLeft{display:table-cell;vertical-align:middle;width:auto;text-align:left;color:#fff;font-size:1em;font-weight:500}
+#recapTableLivraisonRight{display:table-cell;vertical-align:middle;width:auto;text-align:right}
+#recapTableLivraisonRight strong{color:#fff;font-weight:300}
+#recapTableCadeau{display:table;width:100%;vertical-align:middle;padding:3px 0}
+#recapTableCadeauLeft{display:table-cell;vertical-align:middle;width:auto;text-align:left;color:#fff;font-size:1em;font-weight:500}
+#recapTableCadeauRight{display:table-cell;vertical-align:middle;width:auto;text-align:right}
+#recapTableCadeauRight strong{color:#fff;font-weight:300}
+#recapTableCommTotal{display:table;width:100%;vertical-align:middle;padding:10px 0 0 0;border-top:1px solid #cccccc;margin-top:10px}
+#recapTableCommTotalLeft{display:table-cell;width:auto;vertical-align:middle;text-align:left;color:#fff;font-size:1em;font-weight:500}
+#recapTableCommTotalRight{display:table-cell;width:auto;vertical-align:middle;text-align:right}
+#recapTableCommTotalRight strong{color:#fff;font-size:1.4em;color:#fff;font-weight:300 !important}
+.modepayment{margin-top:30px}
+.adresses_bloc{margin-top:30px}
+.adresses_bloc h3.page-subheading{padding:0 0 15px 0;margin:0 0 15px 0;font-size:1.1em;font-weight:500;text-transform:uppercase;border-bottom:1px solid #cec9cb}
+ul.address li{font-weight:normal !important}
+ul.footer_links{padding:20px 0 0 0;border-top:1px solid #d6d4d4;height:65px;list-style:none}
+ul.footer_links li{float:left}
+ul.footer_links li + li{margin-left:10px}
+ul.footer_links li a{padding:10px 50px;margin-left:auto;display:block;text-transform:uppercase;font-size:1.2em;color:#fff;background:#00a76e;text-align:center;border:none;border-radius:0;transition:all .2s ease-in-out}
+ul.footer_links li a:hover{background:#0bc082;color:#fff}
+.checkbox-block label{font-weight:normal}
+#security_informations{text-align:center;font-size:0.9em;padding-top:20px}
+#page-identity .submit{text-align:center}
+#page-identity .button{padding:10px 50px;margin-left:auto;display:inline-block;text-transform:uppercase;font-size:1.2em;color:#fff;background:#00a76e;text-align:center;border:none;border-radius:0;transition:all .2s ease-in-out}
+#page-identity .button:hover{background:#0bc082;color:#fff}
+.addresses input#addressesAreEquals{margin-left:0 !important}
+.nlAction.warning_inline{color:#c42557;background:#fff}
+#footer-newcollect{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/bgNewsletter.jpg) left top no-repeat;text-align:center;background-size:cover;padding:80px 0;color:#fff}
+#footer-newcollect a{color:#fff}
+#footer-newsletter{background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/bgNewsletter.jpg) left top no-repeat;text-align:center;background-size:cover;padding:50px 0;color:#fff}
+#nlToptTitle{font-weight:300;font-size:2em;display:block;line-height:normal}
+#nlToptTitle strong{display:block;font-size:1.7em;text-transform:uppercase;font-weight:800}
+#nlSubtTitle{display:block;letter-spacing:0.5em;font-weight:300;font-size:1.1em;text-transform:uppercase}
+#footer-newsletter p{margin:15px 0;font-size:1.1em;letter-spacing:1px}
+#footer-newsletter p br{display:none}
+#nlForm input#nlInput{color:#2b2a3d;padding:10px 15px;width:100%;border-radius:5px;border:none}
+#nlForm button#nlSubmit{background:transparent;border:1px solid #fff;width:100%;border:1px solid #fff;padding:9px 10px 8px 10px;text-align:center;text-transform:uppercase;color:#fff}
+#nlForm button#nlSubmit i{margin-left:4px}
+#nlForm button#nlSubmit:hover{background:#2b2a3d;color:#fff;border:1px solid #2b2a3d}
+#footer-instagram{display:block;width:100%}
+#footer-instagram a#linkFollowUs{background:#2b2a3d;position:relative;color:#fff}
+#footer-instagram a#linkFollowUs span#linkFollowUsCont{position:absolute;width:80%;height:80%;left:10%;top:10%;box-shadow:0 0 20px #000;display:table}
+#footer-instagram a#linkFollowUs span#linkFollowUsCont > span{display:table-cell;vertical-align:middle;width:100%;text-align:center}
+#footer-instagram a#linkFollowUs span#linkFollowUsCont > span > strong{display:block;text-transform:uppercase;font-size:0.9em;margin-top:5px}
+#footer-instagram a#linkFollowUs span#linkFollowUsCont > span > em{display:block;font-weight:300;letter-spacing:0.4em;font-style:normal;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnInstagram.png) center top no-repeat;padding-top:90px}
+.insta-item{width:16.66%;display:block;float:left;height:240px;position:relative}
+.insta-item > a{position:absolute;width:100%;height:100%;display:block;overflow:hidden}
+.insta-item > a > span.instaImg{background-size:cover;background-repeat:no-repeat;background-position:center center;transition:all .2s ease-in-out;position:absolute;width:100%;height:100%;left:0;top:0}
+.insta-item > a:hover > span.instaImg{transform:scale(1.1)}
+#footer-infos{padding:50px 0}
+#footer-infos h3{display:block;padding:0;margin:0 0 15px 0;font-weight:300}
+#footer-infos > div > ul{padding:0;margin:0;list-style:none}
+#footer-infos > div > ul > li{padding:10px 0;font-weight:300}
+#copyright{background:#2b2a3d;color:#fff;padding:15px 15px;text-align:center;font-weight:300}
+#logoFooter{margin-left:auto;margin-right:auto;display:block;width:126px;height:220px;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/logoFooter.svg);background-size:126px 220px}
+#socialFooter{padding:0;margin:0;list-style:none}
+#socialFooter > li{display:inline-block;font-size:1.5em;margin-right:15px}
+#socialFooter > li:last-child{margin-right:0}
+#socialFooter > li > a{color:#c42557}
+#layer_cart{z-index:20000 !important;display:block;width:50% !important;margin-left:25% !important;margin-right:25% !important}
+.layer_cart_product{background:#ffffff;padding:20px}
+#layer_cart_top{text-align:center;font-size:1.4em}
+#layer_cart_top strong{font-weight:400;font-size:1.2em;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icnCheck.png) left center no-repeat;padding-left:30px}
+#layer_cart_top .product-name{display:inline;font-weight:500;text-transform:none}
+#layer_cart .cross{position:absolute;right:15px;top:10px;width:20px;height:20px;opacity:.3}
+#layer_cart .cross:hover{opacity:1}
+#layer_cart .cross:before,.cross:after{position:absolute;left:15px;content:' ';height:20px;width:2px;background-color:#333}
+#layer_cart .cross:before{transform:rotate(45deg)}
+#layer_cart .cross:after{transform:rotate(-45deg)}
+#layer_cart_cont{margin-top:15px;position:relative}
+#layer_cart_cont:before{position:absolute;width:1px;height:100%;content:'.';overflow:hidden;text-indent:5000px;background:#e3e3e3;left:50%}
+#layer_cart_meta{padding-left:20px}
+#layer_cart_meta #layer_cart_meta_title{display:block;font-size:1.1em;margin-bottom:10px}
+#layer_cart_reassurance{padding-left:20px;margin-top:20px}
+#layer_cart_reassurance ul{padding:0;margin:0;list-style:none}
+#layer_cart_reassurance ul > li{padding-top:10px;padding-bottom:10px;font-size:0.9em;background-size:auto 25px;padding-left:55px;color:#999;font-weight:400}
+.layer_cart_img{margin:0 auto}
+#layer_cart_reassurance ul > li > strong{display:block;color:#535250;text-transform:uppercase;font-weight:500}
+#layer_cart_btn{margin-top:20px}
+#layer_cart{background:none !important;border:none !important}
+#layer_cart_btn .btncart{padding:10px 10px;margin-left:auto;display:block;text-transform:uppercase;font-size:1.2em;color:#fff;background:#00a76e;text-align:center;border:none;width:100%;transition:all .2s ease-in-out;margin:5px 0}
+#layer_cart_btn .btncart:hover{background:#0bc082}
+#layer_cart_btn .btncart.blue{background:#2b2a3d}
+#layer_cart_btn .btncart.blue:hover{background:#3c3b50}
+.store-content{display:inline-block;margin-bottom:30px}
+.store-content input{margin-right:15px}
+#stores-table thead{display:none}
+.stores-cont{margin-bottom:15px}
+.stores-cont p{padding:0;margin:0}
+#stores-cont{height:600px;overflow-y:auto}
+.page-list strong{font-size:1.5em;text-transform:uppercase}
+.page-list ul{padding:0;margin:10px 0 0 0;padding-bottom:10px;border-bottom:1px solid #cec9cb;list-style:none}
+.page-list ul li{font-size:1.2em;padding:3px 0}
+.univ-section{padding:40px 0}
+.univ-section p{font-size:1em;color:#2b2a3d;font-weight:300;line-height:1.8em}
+.us-tile{font-size:2.5em;margin-bottom:20px;text-transform:uppercase}
+.univ-hl{background:#fcfbf7;padding:40px;margin-top:30px;color:#2b2a3d}
+.univ-hl h4{text-transform:uppercase;padding:0;margin:0 0 10px 0}
+.univ-hl p{margin-bottom:20px}
+.univ-imgh{margin-bottom:20px}
+.unvideo{margin-bottom:20px;margin-top:20px}
+.unvideo p{font-weight:400;margin:10px 0}
+.unvideoCat{display:block;color:#c42557;font-size:2em;font-weight:300}
+.unvideoTitle{display:block;color:#2b2a3d;text-transform:uppercase;font-size:2em;font-weight:400}
+.unvideoShare{line-height:20px;margin-top:20px}
+.unvideoShare strong{display:inline-block;font-weight:normal;position:relative;top:-3px;color:#656570;margin-right:5px}
+.unvideoShare a{display:inline-block;font-size:22px;height:30px;line-height:30px;margin-right:5px;color:#c42557;margin-left:5px}
+.unvideoAbout{text-transform:uppercase;font-weight:500;font-size:1.2em;margin-top:15px}
+@media (max-width:991px){.unvideo .col-lg-4{text-align:center !important}
+.unvideo .unvideoCat{margin-top:15px}
+.unvideoCat{font-size:1.2em}
+.unvideoTitle{font-size:1.4em}
+.unvideo .unvideoAbout{text-align:center}
+}
+.layered_filter{display:block;position:relative;margin:5px 10px}
+.layered_subtitle_heading{text-transform:uppercase;font-size:1.2em;padding:5px;font-weight:300;text-align:left}
+.layered_subtitle_heading i.fa{display:none}
+.layered_filter > ul{background:#f7f7f7;padding:10px !important}
+.layered_filter > ul > li{display:block;padding:3px 0;line-height:normal;width:100%}
+.layered_filter > ul > li > div.checker{float:left;margin-right:5px}
+.layered_filter > ul > li > label{display:block;width:100%;text-align:left;font-weight:normal}
+.layered_filter > ul > li > .checkbox{float:left !important;margin:4px 5px 0 0 !important}
+#layered_form .color-option{float:left;margin-right:5px}
+#headerRight,#headerLeft{font-size:12px !important}
+@media (max-height:840px){.section{padding:30px 0}
+#home-about{min-height:230px;background-size:cover !important}
+.home-tile.large{height:450px}
+.home-tile.medium{height:190px}
+#home-aboutcont{padding:20px 200px 20px 20px}
+#image-block img{max-height:400px}
+}
+@media (max-width:767px){#layer_cart{width:90% !important;margin-left:5% !important;margin-right:5% !important}
+#layer_cart_top{font-size:1.2em}
+#layer_cart_meta{padding-left:0;text-align:center}
+.layer_cart_img{margin:0 auto 20px auto}
+#layer_cart_reassurance{display:block;margin-bottom:0;height:70px;position:relative;overflow:hidden}
+#layer_cart_reassurance ul{position:absolute;height:400px;width:100%;top:0;left:0;-moz-animation:carousel 20s infinite;-webkit-animation:carousel 20s infinite;animation:carousel 20s infinite}
+#layer_cart_reassurance ul > li{display:block;width:100%;background-size:auto 25px;padding-left:0;padding-top:40px;width:100%;height:70px;background-position:center top;text-align:center;font-size:0.9em;line-height:normal}
+.img_layer_cart{height:120px;width:auto;margin:0 auto 20px auto}
+#layer_cart_cont:before{display:none}
+#openMenu{display:block}
+#topBar{display:block}
+#logoVISCOMTEAdark{width:180px;height:39px;background-size:180px 39px}
+#navigation span#freeDelivry{display:none}
+.section{padding-top:30px;padding-bottom:30px}
+#topBarLeft a{display:inline-block;background:#fff;width:26px;height:26px;text-align:center;line-height:26px;font-size:1.2em}
+#topBarLeft a span{display:none}
+#topBarLeft a:hover{background:#bc1f4d;color:#fff}
+.home-tile{margin:10px 0}
+.home-tile.large{height:200px;width:100%}
+.home-tile.medium{height:200px;width:100%}
+#headerRight{position:absolute;left:15px;top:5px;margin-top:12px;right:inherit}
+#cartIcn{background-size:30px 23px}
+#cartIcn span.badge{right:-5px;top:5px;font-size:10px;width:18px;height:18px;padding:4px 0}
+#home-about{background-size:130px 194px;min-height:0;background-position:center center}
+#home-aboutcont{padding:30px;text-align:center}
+#home-reassurance{display:block;margin-bottom:20px;height:96px;position:relative;overflow:hidden}
+#home-reassurance ul{position:absolute;height:400px;width:100%;padding:0 20px;top:0;left:0;-moz-animation:carousel 20s infinite;-webkit-animation:carousel 20s infinite;animation:carousel 20s infinite}
+#home-reassurance ul > li{display:block;width:100%;background-size:auto 25px;padding-left:0;padding-top:40px;width:100%;height:96px;background-position:center top;text-align:center}
+.section-reassurance{display:block;height:136px;position:relative;overflow:hidden}
+.section-reassurance ul{position:absolute;height:400px;width:100%;padding:0 20px;top:0;left:0;-moz-animation:carousel 20s infinite;-webkit-animation:carousel 20s infinite;animation:carousel 20s infinite}
+.section-reassurance ul > li{display:block;width:100%;background-size:auto 25px;padding-left:0;padding-top:70px;padding-bottom:20px;width:100%;height:136px;background-position:center 30px;text-align:center}
+#nlToptTitle{font-size:1.3em}
+#nlForm button#nlSubmit{margin-top:10px}
+#footer-instagram > div.insta-item{width:33.33%;height:150px}
+#footer-instagram > div.insta-item:nth-child(4){clear:left}
+#footer-instagram a#linkFollowUs span#linkFollowUsCont > span > em{letter-spacing:0.1em;padding-top:50px;background-size:40px auto}
+#footer-infos{padding:20px 0;text-align:center}
+#footer-infos > div{margin-bottom:30px}
+#footer-infos > div:last-child{margin-bottom:0}
+#footer-infos > div > ul{padding:0;margin:0;list-style:none}
+#footer-infos > div > ul > li{padding:3px 0;font-weight:300}
+#logoFooter{width:70px;height:122px;background-size:70px 122px;margin-bottom:30px}
+.img-homecollec{max-width:250px;margin-left:auto;margin-right:auto;margin-bottom:20px}
+.img-homehistoire{margin-bottom:20px;max-width:250px;margin-left:auto;margin-right:auto}
+.histoire-text{padding:0;line-height:1.3em;text-align:center !important}
+.section-collection div.col-sm-7{text-align:center !important}
+.collection-title em{font-size:1.4em}
+.collection-title strong{font-size:2em}
+#cartIcn span.cartName{display:none}
+#headerLeft{display:none}
+#vcCompte{display:none}
+#headerSearch{display:block !important;float:none}
+.sidebarMobile{display:block;padding:20px;background:#f9f9f9;font-size:1.2em;cursor:pointer}
+.sidebarMobile i.fa{float:right}
+#categorie-sidebar{display:none;padding-top:20px}
+.product-grid{padding-top:20px}
+.layered_filter{margin:5px 5px !important}
+.layered_subtitle_heading{font-size:1.1em}
+.layered_subtitle_heading i.fa{margin-left:2px}
+#image-block{padding:0 30px}
+#product-btn-left{left:0}
+#product-btn-right{right:0}
+#product-desc{margin-top:20px;padding-left:0}
+#product-name{font-size:2.2em}
+#thumbs_list{width:100%;margin-top:20px}
+#thumbs_list_frame > li{display:inline-block}
+#product-desc{margin-top:20px;padding-left:0;padding-right:0;text-align:center}
+#attributes .attribute_list #color_to_pick_list li{float:none !important;display:inline-block}
+#attributes .attribute_list ul li{float:none !important;display:inline-block !important}
+.product-desc-line{display:block;margin-bottom:20px}
+.product-desc-img{display:block;width:100%;border-right:0;padding:0 60px}
+.product-desc-text{display:block;width:100%;padding:20px 0}
+.section-product-desc{background:#fff;background-size:auto 100%}
+#desc-product-name{font-size:1.2em}
+#desc-product-ref{font-size:1em}
+#desc-product-long{padding:0;margin:15px 0;display:block;font-size:1.1em;line-height:1.5em}
+.products-cat-grid{list-style:none;padding:0;margin:0}
+.products-cat-grid > li{list-style:none;float:left;width:48%;margin:10px 1%}
+#qte_cont{margin-left:auto;margin-right:auto;width:242px;height:36px}
+#vcCart .cart_block{right:inherit;left:0;width:290px}
+.cartItemImg{width:70px;height:70px;margin-right:10px}
+#vcCart .cart_block{padding:10px}
+#tunnel-header{padding:0 0 15px 0;height:auto}
+#tunnel-logo{width:170px;height:38px;background-size:170px 38px}
+#tunnel-back{float:none;margin-bottom:20px;display:block;margin-top:0;background:#2b2a3d;color:#fff;padding:5px;font-size:0.9em}
+#tunnel-time{float:none;text-align:center;font-size:0.9em}
+#tunnel-steps{margin-bottom:10px;float:none;text-align:center}
+#tunnel-steps li{display:block;text-align:center;margin:5px 0}
+#tunnel-time{display:none}
+.layer_cart_img img{width:100px;height:auto;margin-bottom:10px}
+.add-itemcart > div.col-sm-9{position:static !important}
+.itemcart-delete{top:15px !important}
+#tunnel-reassurance{display:block;margin-bottom:20px;height:96px;position:relative;overflow:hidden}
+#tunnel-reassurance ul{position:absolute;height:400px;width:100%;padding:0 20px;top:0;left:0;-moz-animation:carousel 20s infinite;-webkit-animation:carousel 20s infinite;animation:carousel 20s infinite}
+#tunnel-reassurance ul > li{display:block;width:100%;background-size:auto 25px;padding-left:0;padding-top:40px;width:100%;height:96px;background-position:center 10px;text-align:center}
+#discount-text{width:130px}
+#panier-identification div.col-sm-6{margin-bottom:40px}
+.loginSubmitIn input{padding:10px 10px;width:100%;float:none}
+#pwlost{float:none;margin-top:10px;display:block}
+#SubmitLogin{float:none}
+.loginSubmitIn br{display:none}
+.addresses ul.address{margin:20px 0 !important}
+.add-collec{padding:5px !important}
+.add-collec > span{font-size:12px !important}
+}
+@media (max-width:300px){#logoVISCOMTEAdark{width:25px;height:39px;background-position:left top;background-size:250px auto}
+}
+@media (min-width:768px) and (max-width:991px){#layer_cart{width:70% !important;margin-left:15% !important;margin-right:15% !important}
+#qte_cont{margin-left:auto;margin-right:auto;width:242px;height:36px}
+.product-desc-line{display:block;margin-bottom:50px}
+.product-desc-text{padding:20px 50px}
+#product-desc{margin-top:20px;padding-left:100px;padding-right:100px;text-align:center}
+#attributes .attribute_list #color_to_pick_list li{float:none !important;display:inline-block}
+#attributes .attribute_list ul li{float:none !important;display:inline-block !important}
+#product-name{font-size:2.2em}
+#mobileSearchCont{display:none !important}
+#topBar{display:block}
+#logoVISCOMTEAdark{width:220px;height:76px;background-size:220px 48px}
+#navigation span#freeDelivry{display:none}
+.section{padding-top:40px;padding-bottom:40px}
+.htcol2l2{margin-top:20px}
+#home-about{background-size:130px 194px;min-height:0}
+#home-aboutcont{padding:50px 400px 50px 50px}
+.home-tile{margin:10px 0}
+.home-tile.large{height:460px;width:100%}
+.home-tile.medium{height:220px;width:100%}
+#home-reassurance ul > li{padding-left:10px;padding-right:10px;padding-top:55px;text-align:center;background-position:center top;vertical-align:top}
+.section-reassurance ul > li{padding-left:10px;padding-right:10px;padding-top:55px;text-align:center;background-position:center top;vertical-align:top}
+#footer-instagram > div.insta-item{width:33.33%}
+#footer-instagram > div.insta-item:nth-child(4){clear:left}
+#footer-infos{padding:20px 0}
+#logoFooter{width:70px;height:122px;background-size:70px 122px;margin-bottom:30px}
+.img-homehistoire{margin-top:50px !important}
+.histoire-text{padding:0 30px;line-height:1.5em}
+#headerLeft{display:none}
+#vcCompte{position:absolute;left:15px}
+#topBarLang{top:-3px}
+.sidebarMobile{display:none}
+#categorie-sidebar{display:block !important}
+.layered_filter{margin:5px 5px !important}
+.layered_subtitle_heading{font-size:1.1em}
+.layered_subtitle_heading i.fa{margin-left:2px}
+#image-block{padding:0 70px}
+#product-btn-left{left:0}
+#product-btn-right{right:0}
+.section-product-desc{background:#fff url(https://www.vicomte-a.com/themes/vicomtea/css/../img/logoSection.svg) bottom right -20% no-repeat;background-size:auto 40%}
+#tunnel-time,#tunnel-steps{float:none;text-align:center}
+#tunnel-steps{margin-bottom:10px}
+#tunnel-steps li{margin:0 20px}
+#discount-text{width:130px}
+}
+@media (min-width:992px) and (max-width:1199px){#mobileSearchCont{display:none !important}
+#logoVISCOMTEAdark{width:277px;height:76px;background-size:277px 60px}
+#navigation span#freeDelivry{font-size:0.85em;line-height:normal;margin-top:-15px}
+#navigation span#freeDelivry strong{display:block}
+#home-about{background-size:130px 194px}
+#home-aboutcont{padding:20px 250px 20px 80px;font-size:0.9em}
+#home-aboutcont h4 strong{display:block}
+.insta-item{height:190px}
+.img-homehistoire{margin-top:0 !important}
+.histoire-text{padding:0 30px;line-height:1.5em}
+.sidebarMobile{display:none}
+#categorie-sidebar{display:block !important}
+#product-name{font-size:2em}
+#product-subline{font-size:1.1em}
+}
+@media (min-width:1200px){#mobileSearchCont{display:none !important}
+.sidebarMobile{display:none}
+#categorie-sidebar{display:block !important}
+#logoVISCOMTEAdark{width:277px;height:76px;background-size:277px 60px}
+}
+.fancybox-wrap,.fancybox-skin,.fancybox-outer,.fancybox-inner,.fancybox-image,.fancybox-wrap iframe,.fancybox-wrap object,.fancybox-nav,.fancybox-nav span,.fancybox-tmp{padding:0;margin:0;border:0;outline:none;vertical-align:top}
+.fancybox-wrap{position:absolute;top:0;left:0;z-index:8020}
+.fancybox-skin{position:relative;background:#f9f9f9;color:#444;text-shadow:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.fancybox-opened{z-index:8030}
+.fancybox-opened .fancybox-skin{-webkit-box-shadow:0 10px 25px rgba(0,0,0,0.5);-moz-box-shadow:0 10px 25px rgba(0,0,0,0.5);box-shadow:0 10px 25px rgba(0,0,0,0.5)}
+.fancybox-outer,.fancybox-inner{position:relative}
+.fancybox-inner{overflow:hidden}
+.fancybox-type-iframe .fancybox-inner{-webkit-overflow-scrolling:touch}
+.fancybox-error{color:#444;font:14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;padding:15px;white-space:nowrap}
+.fancybox-image,.fancybox-iframe{display:block;width:100%;height:100%}
+.fancybox-image{max-width:100%;max-height:100%}
+#fancybox-loading,.fancybox-close,.fancybox-prev span,.fancybox-next span{background-image:url('https://www.vicomte-a.com/js/jquery/plugins/fancybox/fancybox_sprite.png')}
+#fancybox-loading{position:fixed;top:50%;left:50%;margin-top:-22px;margin-left:-22px;background-position:0 -108px;opacity:0.8;cursor:pointer;z-index:8060}
+#fancybox-loading div{width:44px;height:44px;background:url('https://www.vicomte-a.com/js/jquery/plugins/fancybox/fancybox_loading.gif') center center no-repeat}
+.fancybox-close{position:absolute;top:-18px;right:-18px;width:36px;height:36px;cursor:pointer;z-index:8040}
+.fancybox-nav{position:absolute;top:0;width:40%;height:100%;cursor:pointer;text-decoration:none;background:transparent url('https://www.vicomte-a.com/js/jquery/plugins/fancybox/blank.gif');-webkit-tap-highlight-color:rgba(0,0,0,0);z-index:8040}
+.fancybox-prev{left:0}
+.fancybox-next{right:0}
+.fancybox-nav span{position:absolute;top:50%;width:36px;height:34px;margin-top:-18px;cursor:pointer;z-index:8040;visibility:hidden}
+.fancybox-prev span{left:10px;background-position:0 -36px}
+.fancybox-next span{right:10px;background-position:0 -72px}
+.fancybox-nav:hover span{visibility:visible}
+.fancybox-tmp{position:absolute;top:-99999px;left:-99999px;visibility:hidden;max-width:99999px;max-height:99999px;overflow:visible !important}
+.fancybox-lock{overflow:hidden !important;width:auto}
+.fancybox-lock body{overflow:hidden !important}
+.fancybox-lock-test{overflow-y:hidden !important}
+.fancybox-overlay{position:absolute;top:0;left:0;overflow:hidden;display:none;z-index:8010;background:url('https://www.vicomte-a.com/js/jquery/plugins/fancybox/fancybox_overlay.png')}
+.fancybox-overlay-fixed{position:fixed;bottom:0;right:0}
+.fancybox-lock .fancybox-overlay{overflow:auto;overflow-y:scroll}
+.fancybox-title{visibility:hidden;font:normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;position:relative;text-shadow:none;z-index:8050}
+.fancybox-opened .fancybox-title{visibility:visible}
+.fancybox-title-float-wrap{position:absolute;bottom:0;right:50%;margin-bottom:-35px;z-index:8050;text-align:center}
+.fancybox-title-float-wrap .child{display:inline-block;margin-right:-100%;padding:2px 20px;background:transparent;background:rgba(0,0,0,0.8);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;text-shadow:0 1px 2px #222;color:#FFF;font-weight:bold;line-height:24px;white-space:nowrap}
+.fancybox-title-outside-wrap{position:relative;margin-top:10px;color:#fff}
+.fancybox-title-inside-wrap{padding-top:10px}
+.fancybox-title-over-wrap{position:absolute;bottom:0;left:0;color:#fff;padding:10px;background:#000;background:rgba(0,0,0,.8)}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5){#fancybox-loading,.fancybox-close,.fancybox-prev span,.fancybox-next span{background-image:url('https://www.vicomte-a.com/js/jquery/plugins/fancybox/fancybox_sprite@2x.png');background-size:44px 152px}
+#fancybox-loading div{background-image:url('https://www.vicomte-a.com/js/jquery/plugins/fancybox/fancybox_loading@2x.gif');background-size:24px 24px}
+}
+.resumecat{margin:15px 0 10px 0;padding:8px 7px;color:#000;background:#f0f0f0}
+.content_scene_cat{padding:5px;border:1px solid #ccc;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-box-shadow:0 1px 1px #e2e2e2;-webkit-box-shadow:0 1px 1px #e2e2e2;box-shadow:0 1px 1px #e2e2e2}
+.cat_desc{font-size:12px;line-height:18px}
+.cat_desc p{padding:0 10px 5px 10px}
+.cat_desc .lnk_more{padding:0 10px;color:#0088CC;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/arrow_right_1.png) no-repeat 100% 4px transparent}
+#subcategories{margin-top:15px}
+#subcategories h3{padding:14px 12px;font-size:13px;color:#fff;text-transform:uppercase;text-shadow:0 1px 0 #666;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/bg_table_th.png) repeat-x 0 0 #999}
+.inline_list{list-style-type:none;margin-top:10px}
+.inline_list li{padding:10px 0;border-bottom:1px dotted #ccc}
+.inline_list li .img{float:left;margin-right:15px}
+.inline_list li img{border:1px solid #ccc}
+.inline_list li .cat_name{font-weight:bold;font-weight:13px}
+#scenes .cluetip span{background:transparent url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icon/cible.gif) no-repeat scroll center center;color:black;display:block;font-size:1.1em;font-weight:bold;height:23px;padding-top:5px;text-align:center;width:23px}
+.thumbs_banner{margin:10px auto;padding:2px 0;height:60px !important;width:100%;border-top:1px solid #ccc;border-bottom:1px solid #ccc}
+.thumbs_banner .space-keeper{width:21px;float:left;display:block;height:100%}
+.thumbs_banner .space-keeper a.prev{display:none;width:21px;text-align:center;font-size:1.5em;text-decoration:none;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icon/serial_scroll_left.gif) no-repeat 0 0 #eee}
+#scenes_list{overflow:hidden;float:left;width:478px}
+#scenes_list ul{list-style-type:none}
+#scenes_list li{float:left}
+#scenes_list a{display:block}
+.thumbs_banner a.next{float:left;display:block;width:21px;text-align:center;font-size:1.5em;text-decoration:none;background:url(https://www.vicomte-a.com/themes/vicomtea/css/../img/icon/serial_scroll_right.gif) no-repeat 0 0 #ddd}
+#scenes .screen_scene{margin:0 auto}
+#scenes a.cluetip{display:block;position:absolute;text-decoration:none}
+.cluetip-product_scene{padding:10px;border:7px solid #999;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;text-align:left;background:#fff;opacity:0.95}
+.cluetip-product_scene #cluetip-close{text-align:right;float:right}
+.cluetip-product_scene img{float:left;margin-right:10px;border:1px solid #ccc}
+.cluetip-product_scene h4{display:inline-block;margin-bottom:5px;padding:0 !important;font-size:12px}
+.cluetip-product_scene .clear{margin:0;padding:0}
+.cluetip-product_scene .clear a{margin-top:2px}
+.cluetip-product_scene p.description{float:left;padding:0;width:140px;color:#666}
+.cluetip-product_scene div.prices{float:right;position:relative;width:65px;text-align:right}
+.cluetip-product_scene .new{position:absolute;top:0;right:0;display:inline-block;padding:1px 5px;font-weight:bold;font-size:10px;color:#fff;text-transform:uppercase;background:none repeat scroll 0 0 #9B0000}
+.cluetip-product_scene .price{padding-top:18px;font-weight:bold;font-size:13px;color:#990000}
+.cluetip-product_scene .on_sale,.cluetip-product_scene .discount{display:block;font-weight:bold;color:#DA0F00;text-transform:uppercase}
+#layer_cart{background-color:#f9f9f9;border:1px solid #dcdcdc;padding:4px;position:absolute;left:0;clear:both;display:none;z-index:99}
+.layer_cart_overlay{background-color:#000;display:none;height:100%;left:0;position:fixed;top:0;width:100%;z-index:98;opacity:.50;-moz-opacity:.50;filter:alpha(opacity=50)}
+* html .layer_cart_overlay{filter:alpha(opacity=50);position:absolute;left:0;margin-left:-160px}
+#layer_cart .continue{cursor:pointer}
+#layer_cart p{padding:0}
+.bx-wrapper{position:relative;padding:0;zoom:1;margin:0 !important}
+.bx-wrapper img{max-width:100%;display:block}
+.bx-viewport{direction:ltr !important}
+.bx-wrapper .bx-pager,.bx-wrapper .bx-controls-auto{position:absolute;bottom:-30px;width:100%}
+.bx-wrapper .bx-loading{min-height:50px;background:url(https://www.vicomte-a.com/js/jquery/plugins/bxslider/images/bx_loader.gif) center center no-repeat;height:100%;width:100%;position:absolute;top:0;left:0;z-index:2000;display:none}
+.bx-wrapper .bx-pager{text-align:center;font-size:.85em;font-family:Arial,Helvetica,sans-serif;font-weight:bold;color:#666;padding-top:20px}
+.bx-wrapper .bx-pager .bx-pager-item,.bx-wrapper .bx-controls-auto .bx-controls-auto-item{display:inline-block;zoom:1}
+.bx-wrapper .bx-pager.bx-default-pager a{text-indent:-9999px;display:block;width:10px;height:10px;margin:0 5px;background:#000;outline:0;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,.bx-wrapper .bx-pager.bx-default-pager a.active{background:#000}
+.bx-wrapper .bx-controls-direction a{margin-top:38px;height:20px;width:20px;line-height:0;position:absolute;top:40%;margin-top:-10px;font-size:0;overflow:hidden;outline:none;text-decoration:none}
+.bx-wrapper .bx-controls-direction a:before{padding-left:2px;color:#c0c0c0;font-family:"FontAwesome";font-size:20px;line-height:22px}
+.bx-wrapper .bx-controls-direction a:hover:before{color:#333}
+.bx-next{right:10px}
+.bx-next:before{content:"\f138"}
+.bx-prev{left:10px}
+.bx-prev:before{content:"\f137"}
+.bx-wrapper .bx-controls-direction a.disabled{display:none}
+.bx-wrapper .bx-controls-auto{text-align:center}
+.bx-wrapper .bx-controls-auto .bx-start{display:block;text-indent:-9999px;width:10px;height:11px;outline:0;background:url(https://www.vicomte-a.com/js/jquery/plugins/bxslider/images/controls.png) -86px -11px no-repeat;margin:0 3px}
+.bx-wrapper .bx-controls-auto .bx-start:hover,.bx-wrapper .bx-controls-auto .bx-start.active{background-position:-86px 0}
+.bx-wrapper .bx-controls-auto .bx-stop{display:block;text-indent:-9999px;width:9px;height:11px;outline:0;background:url(https://www.vicomte-a.com/js/jquery/plugins/bxslider/images/controls.png) -86px -44px no-repeat;margin:0 3px}
+.bx-wrapper .bx-controls-auto .bx-stop:hover,.bx-wrapper .bx-controls-auto .bx-stop.active{background-position:-86px -33px}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{text-align:left;width:80%}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{right:0;width:35px}
+.bx-wrapper .bx-caption{position:absolute;bottom:0;left:0;background:#666;background:rgba(80,80,80,0.75);width:100%}
+.bx-wrapper .bx-caption span{color:#fff;font-family:Arial,Helvetica,sans-serif;display:block;font-size:.85em;padding:10px}
+.blockcategories_footer{*zoom:1}
+.blockcategories_footer:before,.blockcategories_footer:after{content:"";display:table}
+.blockcategories_footer:after{clear:both}
+.blockcurrencies{cursor:pointer;color:#cacaca;font-weight:bold;font-size:12px;font-size:1.2rem;position:relative;bottom:20px}
+.blockcurrencies:hover ul{display:block}
+.blockcurrencies span{background:url('https://www.vicomte-a.com/themes/vicomtea/css/modules/blockcurrencies/../../../img/arrow-dropdown.png') #2a2a2a 15px 24px no-repeat;height:40px;line-height:60px}
+.blockcurrencies ul a{height:20px;line-height:20px}
+.blockcurrencies ul a,.blockcurrencies span{width:30px;padding-left:5px;display:block}
+.blockcurrencies ul{list-style-type:none;padding-left:0;margin:0;display:none;position:absolute;z-index:100}
+.blockcurrencies ul a{color:#cacaca;text-decoration:none;background:#2a2a2a}
+.blockcurrencies ul a:hover{color:#fff}
+.blocklanguages{background:url('https://www.vicomte-a.com/themes/vicomtea/css/modules/blocklanguages/../../../img/arrow-dropdown.png') #2a2a2a 90% 5px no-repeat;cursor:pointer}
+.blocklanguages:hover ul{display:block}
+.blocklanguages img{padding:0 20px 8px 5px;display:block}
+.blocklanguages ul{list-style-type:none;padding-left:0;margin:0;z-index:100;display:none;position:absolute;background:#2a2a2a}
+.blocklanguages ul a{display:block}
+.blockmanufacturer form{margin-top:10px;text-align:center}
+.blockmanufacturer form select{width:80%}
+.blocknewproducts{*zoom:1}
+.blocknewproducts:before,.blocknewproducts:after{content:"";display:table}
+.blocknewproducts:after{clear:both}
+.blocknewproducts img{float:left;max-width:35%}
+.blocknewproducts h2{margin:1em 0}
+.blocknewproducts h2,.blocknewproducts p{padding-left:40%}
+.blocknewsletter .inputNew{width:65%}
+.blocksearch-top{position:absolute;top:30px;left:0;width:100%}
+.blocksearch-top .search_query{width:45%}
+.ac_results{text-align:left;padding:0;border:1px solid black;background-color:white;overflow:hidden;z-index:99999}
+.ac_results ul{width:100%;list-style-position:outside;list-style:none;padding:0;margin:0}
+.ac_results li{margin:0;padding:2px 5px;cursor:default;display:block;font:menu;font-size:12px;line-height:16px;overflow:hidden}
+.ac_odd{background-color:#eee}
+.ac_over{background-color:#0A246A;color:white}
+.blockspecials{position:relative;*zoom:1}
+.blockspecials:before,.blockspecials:after{content:"";display:table}
+.blockspecials:after{clear:both}
+.blockspecials img{float:left;max-width:50%}
+.blockspecials h2{margin:1.5em 0}
+.blockspecials span{display:block}
+.blockspecials span.price{font-size:14px;font-size:1.4rem}
+.blockspecials span.label{top:55%}
+.blockspecials h2,.blockspecials span.price,.blockspecials span.price-discount{padding-left:55%}
+.blockstore img{max-width:100%;margin:0 auto;display:block}
+.blocksupplier form{margin-top:10px;text-align:center}
+.blocksupplier form select{width:80%}
+.blocktags ol li{display:inline;margin-right:1em}
+.blocktags ol a{display:inline}
+.blocktags ol a.tag_level1{font-size:14px;font-size:1.4rem}
+.blocktags ol a.tag_level2{font-size:12px;font-size:1.2rem}
+.blocktags ol a.tag_level3{font-size:10px;font-size:1rem}
+.blockuserinfo{position:absolute;top:0;left:0;margin:0}
+.blockuserinfo p{margin:0}
+.blockuserinfo-cart{position:absolute;top:30px;right:0;font-size:13px;font-size:1.3rem;width:185px;background:#eaeaea;color:#9a9a9a;z-index:50}
+.blockuserinfo-cart .price{font-weight:bold;color:#2a2a2a;float:right}
+.blockuserinfo-cart a{text-decoration:none;padding:10px 20px;display:block}
+.blockviewed{*zoom:1}
+.blockviewed:before,.blockviewed:after{content:"";display:table}
+.blockviewed:after{clear:both}
+.blockviewed img{float:left;max-width:35%}
+.blockviewed h2{margin:1em 0}
+.blockviewed h2,.blockviewed p{padding-left:40%}
+.homefeatured{*zoom:1}
+.homefeatured:before,.homefeatured:after{content:"";display:table}
+.homefeatured:after{clear:both}
+.homefeatured ul{list-style-type:none;padding-left:0;margin:0}
+.homefeatured ul li{float:left;width:25%;padding:0 2%;position:relative}
+.homefeatured img{margin:0 auto;display:block;max-width:100%}
+.homefeatured p{height:5.6em;overflow:hidden}
+.homefeatured .price{display:block;padding-bottom:1em}
+.homefeatured .label{margin-left:20px}
+#htmlcontent_home ul{margin:0 -5px}
+#htmlcontent_home ul li{padding:0 5px 10px}
+@media (max-width:479px){#htmlcontent_home ul li{width:100%}
+}
+#htmlcontent_home ul li img{max-width:100%;height:auto}
+@media (max-width:479px){#htmlcontent_home ul li img{min-width:100%}
+}
+#htmlcontent_home ul li.htmlcontent-item-5{width:66.6667%}
+@media (max-width:479px){#htmlcontent_home ul li.htmlcontent-item-5{width:100%}
+}
+#htmlcontent_top{float:right;width:33%;max-width:391px;padding-left:5px}
+@media (max-width:767px){#htmlcontent_top{width:100%;max-width:100%;padding-left:0;padding-top:0}
+}
+@media (max-width:767px){#htmlcontent_top ul{margin:0 -5px}
+}
+#htmlcontent_top ul li{width:100%;margin-bottom:10px}
+@media (max-width:767px){#htmlcontent_top ul li{float:left;padding-left:5px;padding-right:5px;width:50%}
+}
+#htmlcontent_top ul li:last-child{margin-bottom:0}
+#htmlcontent_top ul li img{max-width:100%;height:auto}
+.blocktopmenu{display:inline;float:left;width:1050px;margin:0 15px;*zoom:1;background:#333333}
+.blocktopmenu:before,.blocktopmenu:after{content:"";display:table}
+.blocktopmenu:after{clear:both}
+.blocktopmenu a{color:#fff;display:block;text-decoration:none;padding:10px}
+.blocktopmenu a:hover{background:#6a6a6a}
+.blocktopmenu > ul > li{float:left;display:block;border-right:#1a1a1a 1px solid;border-left:#4d4d4d 1px solid;position:relative}
+.blocktopmenu > ul > li:hover{background:#6a6a6a}
+.blocktopmenu > ul > li:hover ul{display:block}
+.blocktopmenu ul ul{position:absolute;display:none;background:#2a2a2a}
+.blocktopmenu ul ul li{border-top:1px dotted #cacaca}
+.blocktopmenu ul ul li:first-child{border-top:none}
+.blocktopmenu .search{float:right;padding:8px}
+#paypal-column-block p{text-align:center}
+.paypal-bold{font-weight:700}
+.paypal-clear{clear:both}
+#paypal-wrapper .half{width:44%}
+#paypal-wrapper{font-size:1.1em;position:relative}
+#paypal-wrapper ul li{text-align:left}
+#paypal-wrapper hr{border-top:1px solid #ccc!important;margin-bottom:0;margin-top:20px}
+#paypal-wrapper .toolbox{background:#fff2cf;border:1px solid #aaa;color:#000;display:none;font-size:10px;font-weight:400;left:730px;line-height:12px;padding:6px!important;position:absolute;text-transform:none;top:-10px!important;width:180px;z-index:100}
+.paypal-disabled,.paypal-disabled *,.paypal-disabled * *,.paypal-disabled * * *{color:#888!important}
+.paypal-disabled .paypal-button,.paypal-disabled input[type=submit]{background:#DDD!important;border:1px solid #999!important}
+#paypal-wrapper .inline{display:inline;margin-right:5px}
+#paypal-wrapper .box{margin:6px 1%;padding:12px;text-align:left}
+#paypal-wrapper .box ul{list-style:none;margin:0;padding:0}
+#paypal-wrapper .box ul.tick li{background:url(https://www.vicomte-a.com/modules/paypal/views/css/../img/blue_tick.png) no-repeat left 3px;padding:4px 26px}
+span.paypal-section{background:url(https://www.vicomte-a.com/modules/paypal/views/css/../img/sprites.png) no-repeat 0 0;color:#FFF!important;float:left;height:24px;line-height:24px;margin-right:8px;text-align:center;width:24px}
+.paypal-disabled span.paypal-section{background:url(https://www.vicomte-a.com/modules/paypal/views/css/../img/sprites.png) 0 24px}
+#paypal-slogan{font-size:1.8em;margin:0 0 5px;text-transform:uppercase}
+#paypal-slogan .light{color:#369}
+#paypal-slogan .dark{color:#036}
+#paypal-call-button{margin:-6px 0 0;padding:0}
+#paypal-call,#paypal-call-foonote{background:#e1e1e1 url(https://www.vicomte-a.com/modules/paypal/views/css/../img/bg-call-button.png) repeat-x;border:1px solid #d2d2d2;border-left-color:#ddd;border-radius:5px;border-right-color:#ddd;border-top-color:#e9e9e9;color:#369;display:block;margin:0;padding:10px 20px;width:auto}
+#paypal-call-foonote{background:none;border:none;font-size:.8em;max-width:320px;padding:2px 10px;text-align:justify}
+#paypal-get-identification{display:block;min-width:378px;text-align:center}
+#paypal-wrapper a,#paypal-test-mode-confirmation a{color:#036;text-decoration:underline}
+#paypal-wrapper h1,#paypal-wrapper h2,#paypal-wrapper h3,#paypal-wrapper h4,#paypal-wrapper h5,#paypal-wrapper h6,#paypal-country-form h1,#paypal-test-mode-confirmation h1,#paypal-country-form h2,#paypal-test-mode-confirmation h2,#paypal-country-form h3,#paypal-test-mode-confirmation h3,#paypal-country-form h4,#paypal-test-mode-confirmation h4,#paypal-country-form h5,#paypal-test-mode-confirmation h5,#paypal-country-form h6,#paypal-test-mode-confirmation h6{color:#036;font-family:Arial,Verdana,Helvetica,sans-serif;font-weight:400;text-transform:uppercase}
+#paypal-country-form h3,#paypal-test-mode-confirmation h3,#paypal-wrapper h3{font-size:1.4em;line-height:24px}
+#paypal-country-form h4,#paypal-test-mode-confirmation h4,#paypal-wrapper h4{font-size:1.2em;margin-bottom:5px;text-transform:none}
+#paypal-wrapper h1.inline + img,#paypal-wrapper h2.inline + img,#paypal-wrapper h3.inline + img,#paypal-wrapper h4.inline + img,#paypal-wrapper h5.inline + img,#paypal-wrapper h6.inline + img{vertical-align:-6px}
+#paypal-wrapper p{margin-top:10px;padding-bottom:0}
+#paypal-wrapper .form-block{margin-top:5px}
+#paypal-wrapper .form-block input{vertical-align:top}
+#paypal-wrapper dl dt{clear:both;line-height:20px;margin-bottom:2px;text-align:right;width:220px}
+#paypal-wrapper dl dd{margin:0 0 16px 10px}
+#paypal-wrapper label{display:inline-block;float:none;font-size:.9em;font-weight:400;margin-bottom:5px;padding-left:6px;padding-top:0;position:relative;text-align:left;width:auto}
+#paypal-wrapper dl dt label{margin:0;padding:0}
+#paypal-wrapper .description,#paypal-wrapper .paypal-signup-content{color:#666;font-size:.9em;font-weight:400;margin:2px 0;font-size:11px;font-style:italic}
+label span.description{display:block;padding-left:16px}
+#paypal-wrapper input[type=submit],#paypal-country-form button,#paypal-test-mode-confirmation button,#paypal-wrapper .paypal-button{background:url(https://www.vicomte-a.com/modules/paypal/views/css/../img/bg-button.png) repeat-x;border:1px solid #f29116;border-radius:4px;color:#292929;cursor:pointer;display:inline-block;font-weight:700;height:25px;line-height:26px;padding:0 10px;text-decoration:none;text-shadow:0 1px 1px #DDD;text-transform:uppercase}
+#paypal-country-form ul,#paypal-test-mode-confirmation ul{font-size:1.1em;padding-left:10px}
+#paypal-country-form button,#paypal-test-mode-confirmation button{line-height:20px}
+#paypal-test-mode-confirmation{margin:30px;text-align:left;width:500px}
+#paypal-country-form #buttons,paypal-test-mode-confirmation#buttons{margin-top:20px;text-align:right}
+#paypal-test-mode-confirmation button + button{margin-left:20px;margin-right:20px}
+#paypal-save-success,#paypal-save-failure{width:450px}
+#container_express_checkout{margin:auto;text-align:left}
+#payment_paypal_express_checkout{cursor:pointer}
+.paypal_error span{color:red;font-weight:bolder}
+.paypal_payment_acccepted span{color:green;font-weight:bolder}
+#paypal_configuration > .box{margin-left:0;margin-right:0;padding-left:0;padding-right:0}
+#paypal-wrapper .left,#paypal-wrapper dl > *{float:left}
+#paypal-wrapper .right,.box ul.tick{float:right}
+.paypal-hide{display:none}
+#paypal-wrapper .merchant_id{margin-top:0}
+#paypal-wrapper .merchant_id label{padding-left:0}
+.inforeturn .alert{padding:15px;margin-bottom:18px;border:1px solid transparent;border-radius:0}
+.inforeturn .alert h4{margin-top:0;color:inherit}
+.inforeturn .alert.alert-link{font-weight:bold}
+.inforeturn .alert > p,.inforeturn .alert > ul{margin-bottom:0}
+.inforeturn .alert > p + p{margin-top:5px}
+.inforeturn .alert-dismissable{padding-right:35px}
+.inforeturn .alert-dismissable.close{position:relative;top:-2px;right:-21px;color:inherit}
+.inforeturn .alert-success{background-color:#55c65e;border-color:#48b151;color:#fff}
+.inforeturn .alert-success hr{border-top-color:#419f49}
+.inforeturn .alert-success.alert-link{color:#e6e6e6}
+.inforeturn .alert-info{background-color:#5192f3;border-color:#4b80c3;color:#fff}
+.inforeturn .alert-info hr{border-top-color:#3d73b7}
+.inforeturn .alert-info.alert-link{color:#e6e6e6}
+.inforeturn .alert-warning{background-color:#fe9126;border-color:#e4752b;color:#fff}
+.inforeturn .alert-warning hr{border-top-color:#da681c}
+.inforeturn .alert-warning.alert-link{color:#e6e6e6}
+.inforeturn .alert-danger{background-color:#f3515c;border-color:#d4323d;color:#fff}
+.inforeturn .alert-danger hr{border-top-color:#c32933}
+.inforeturn .alert-danger.alert-link{color:#e6e6e6}
+.braintree-row-payment{padding:5px 5px 5px 10px;border:solid 1px #d6d4d4;border-radius:4px;margin:0 0 10px 0}
+.braintree-row-payment .block_field{width:46%;display:block;margin-top:10px;margin-right:1%;float:left}
+.braintree-row-payment .block_field.half_block_field{width:20%;margin-right:1%}
+.braintree-row-payment label{float:left;margin:9px 20px 0 0;display:block;width:200px}
+.braintree-row-payment .half_block_field .hosted_field{width:100%}
+.braintree-row-payment .hosted_field{height:34px;padding:6px 12px 6px 12px;border:1px solid #cccccc;-webkit-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,0,0,0.0745098) 0 1px 1px 0 inset;box-shadow:rgba(0,0,0,0.0745098) 0 1px 1px 0 inset;-webkit-transition:border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;transition:border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;float:left}
+.braintree-row-payment .braintree-hosted-fields-focused{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6)}
+.braintree-row-payment #braintree_submit{margin-top:20px;color:#fff;background-color:#337ab7;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid #2e6da4;border-radius:4px;width:250px;clear:both}
+.paypal_clear{clear:both}
+.braintree_logo{vertical-align:bottom}
+.braintree_title_bo{color:#000}
+.braintree_error{background-color:#F11;color:white;padding:5px;opacity:0.5;border:solid 3px red}
+#paypal-wrapper .bo_paypal_help{border-radius:50%;border:2px solid #036;width:21px;display:inline-block;height:21px;font-size:17px;text-decoration:none;text-align:center}
+#paypal-wrapper .braintree_link{text-decoration:none}
+.paypal_title_pay_card{font-size:17px;color:#333}
+#error_version_php{margin-left :23px}
+.ogone-aliases .card-info-title{display:block;text-transform:uppercase;font-size:10px;font-weight:600;color:#333}
+.subscribe-title{margin:15px 0 10px 0;color:#414141;text-align:center;text-transform:uppercase}
+.info-subscribe{margin:10px 0;font-size:13px;line-height:14px;font-style:italic}
+.subscribe-info-list dl{display:-webkit-box;display:-moz-box;display:box;display:-moz-flex;display:-ms-flexbox;-js-display:flex;display:flex;-webkit-box-lines:multiple;-moz-box-lines:multiple;box-lines:multiple;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.subscribe-info-list dl dd,.subscribe-info-list dl dt{background:#fff;flex:0 0 50%;font-size:13px;padding:6px 8px;margin:0;border:1px solid #fff;color:#414141}
+.subscribe-info-list dl dd:nth-of-type(2n),.subscribe-info-list dl dt:nth-of-type(2n){background:#f6f6f6}
+.bt-subscribe{float:right !important;margin-bottom:10px}
+#ogone_subscriptions_list .subscribe-info-list dl dd,#ogone_subscriptions_list .subscribe-info-list dl dt{background:#e3e3e3;flex:0 0 50%;font-size:13px;padding:6px 8px;margin:0;border:1px solid #fff;color:#414141}
+#ogone_subscriptions_list .subscribe-info-list dl dd:nth-of-type(2n),#ogone_subscriptions_list .subscribe-info-list dl dt:nth-of-type(2n){background:#f6f6f6}
+#ogone_subscriptions_list .page-header{margin-bottom:1.5625rem}
+#ogone_subscriptions_list #content{box-shadow:2px 2px 11px 0 rgba(0,0,0,.1);background:#fff;padding:1rem;font-size:.875rem;color:#878787}
+.subscribe-resume{margin-bottom:20px}
+.subscribe-resume.ended{opacity:0.75}
+.subscribe-resume .data-info-wrapper{padding:15px;background:#f6f6f6;margin-bottom:15px;border:2px solid #e3e3e3}
+.subscribe-resume .data-info{margin:0;font-size:0;width:100%;border:2px solid #e3e3e3;border-bottom:0}
+.subscribe-resume .data-info th{background:#e3e3e3;font-size:13px;color:#414141 !important;text-align:center;word-wrap:break-word}
+.subscribe-resume .data-info td{word-wrap:break-word !important}
+.subscribe-resume .data-info .datas{position:relative;margin-bottom:5px}
+.subscribe-resume .data-info .datas .item-number{position:absolute;text-align:center;font-size:13px;line-height:20px;color:#fff;width:20px;height:20px;background:#2fb5d2;border-radius:100%;left:-5px;top:-5px}
+.subscribe-resume .data-info .item-order{padding:2px 10px;margin:3px 3px;font-size:12px;border:2px solid #e3e3e3;background:#fff;text-align:center}
+.subscribe-resume .data-info .item-order a{color:#2592a9;font-weight:600}
+.subscribe-resume .data-info .item-order a:hover{text-decoration:underline}
+.subscribe-resume .data-info .item-order b{color:#414141}
+.subscription_form .btn{vertical-align:top;margin-right:5px;line-height:15px}
+.subscription_form .btn-toggle{background:#e3e3e3;color:#414141}
+.item-order .label-pill{color:white;border-radius:6px;padding:2px 5px 2px 5px;margin:2px;display:inline-block}
+.actions_container FORM{display:inline}
+.actions_container BUTTON{display:inline-block}
+.subscribe-resume{margin-bottom:20px;padding-bottom:30px;border-bottom:1px solid #eaeaea}
+.subscription-end{padding:5px;margin:5px;border:solid 1px #eaeaea}
+.message{background-color:white;padding:10px;border:1px solid #eaeaea;font-weight:bold}
+.error{background-color:white;padding:10px;border:1px solid #eaeaea;font-weight:bold;color:red}
+.ogone-sub-payment A{padding-left:15px !important}
+#HOOK_PAYMENT TABLE TH{font-weight:bold;border-bottom:1px solid #eaeaea}
+#HOOK_PAYMENT TABLE{padding:10px}
+#HOOK_PAYMENT TABLE TR TD:first{border-right:1px solid #eaeaea}
+.scheduled A{padding-left:15px !important}
+.ogone_cvc{display:block;line-height:16px;font-size:12px;font-weight:normal;text-shadow:1px 1px}
+.inner-card-cvc-adjust{height:auto!important}
+.ogone-cvc-container{text-align:right;padding-top:10px;clear:both}
+.ogone-cvc-input{border-radius:3px;border:1px solid #dedede;box-shadow:none;outline:none;padding:5px 10px;text-align:center}
+.ogone-cvc-info{display:block;clear:both;font-size:10px;line-height:12px;padding-top:7px}
+.ogone-cvc-input-container{float:right}

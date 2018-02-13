@@ -1,0 +1,127 @@
+/*
+responsive.css
+##############
+
+par gcaron
+*/
+
+* {
+	/* border: 1px solid red; */
+}
+
+h1 {
+	text-align: center;
+	/*font-size: 4vw;*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+h1:hover {
+	max-height: none;
+	white-space: normal;
+}
+table.MyTable {
+	width: 100%;
+	border: none;
+	//border-collapse: collapse;
+	font-family: monospace;
+	caption-side: bottom;
+	empty-cells: hide;
+}
+table.MyTable td, table.MyTable tr {
+	border: 1px solid black;
+	padding: 1px;
+}
+figure {
+	font-size: calc(2px + 3vw);
+	text-align: center;
+}
+caption {
+	font-size: 2vw;
+	text-align: left;
+	font-family: initial;
+}
+figcaption {
+	font-size: calc(6px + 1vw);
+	text-align: center;
+	font-family: initial;
+}
+img {
+	max-width: 300px;
+}
+.titrecolonne {
+	font-size: 1.0vw;
+	text-align: center;
+}
+.titreligne {
+	vertical-align: center;
+	background-color: #FFFFFF;
+	font-size: 1.0vw;
+}
+.masse {
+	margin: 0;
+	font-size: 1.0vw;
+	text-align: right;
+}
+.symbol {
+	margin: 0;
+	text-align: center;
+	font-size: 3vw;
+	font-weight: bold;
+}
+.atomic {
+	margin: 0;
+	font-size: 1.5vw;
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+.legende {
+	margin: 0;
+	font-size: 1.2vw;
+	text-align: center;
+}
+.commentaire_right {
+	margin: 0;
+	text-align: right;
+	font-size: 0.8vw;
+	font-style: italic; 
+}
+.commentaire_left {
+	margin: 0;
+	text-align: left;
+	font-size: 0.8vw;
+	font-style: italic; 
+}
+.green {
+	background-color: #69FF6A;
+}
+.orange {
+	background-color: #F8CA31;
+}
+.red {
+	background-color: #F96D97;
+}
+.grey {
+	background-color: #BBBBBB;
+}
+.blue_sky {
+	background-color: #82E0DD;
+}
+.yellow {
+	background-color: #FAFF7A;
+}
+.purple {
+	background-color: #BBA7DA;
+}
+.pink {
+	background-color: #FE92FD;
+}
+.blue {
+	background-color: #838FFC;
+}
+.green_light {
+	background-color: #C7EA30;
+}

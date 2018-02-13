@@ -1,0 +1,234 @@
+/*
+doft.css
+########
+
+par gcaron
+*/
+* {
+	/*border: 1px solid red;*/
+}
+/* MISE EN PAGE GLOBALE */
+.bg:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(resources/doft.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed; 
+	opacity: 0.2;
+	background-position-y: -77px;
+	/*display: none;*/
+}
+img
+
+body {
+	background-color: #505050;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.site {
+	width: 1420px;
+	/*height: 894px;*/
+	margin: 0 auto;
+}
+
+header, .m_left, .m_center, ._m_right, .boiteverte {
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 0 #000;
+
+}
+
+
+
+
+
+/* ########################     HEADER  */
+header {
+	width: 100%;
+	height: 137px;
+	margin-top: 18px;
+}
+
+.h_day42 {
+	margin-left: 11px;
+	
+}
+
+.h_day42 img {
+	width: 423px;
+	margin-top: 10px;
+}
+
+.h_loupe {
+	float: right;
+	top: 0px;
+}
+
+.h_loupe img {
+	width: 252px;
+	margin-top: -113px;
+	
+}
+
+.h_boutons {
+	margin-top: -112px;
+	margin-right: 74px;
+	float: right;
+	width: 20px;
+/*	display: flex;
+	flex-direction: column;
+	justify-content: space-between;*/
+
+}
+
+.img_reload {
+	width: 19px;
+	/*	float: right;*/
+}
+
+.img_close {
+	width: 19px;
+	margin-top: 10px;
+	/*float: right;*/
+}
+
+
+
+
+
+/* ########################     MAIN  */
+main {
+	width: 100%;
+	display: inline-block;
+}
+
+
+/* ##############     m_left  */
+.m_left {
+	width: 140px;
+	height: 425px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.border_img {
+	border: 5px solid red;
+	border-radius: 10px;
+}
+
+
+
+
+/* ##############     m_center  */
+.m_center {
+	width: 1020px;
+	height: 582px;
+	margin-left: 30px;
+}
+
+
+
+
+
+/* ##############     m_right  */
+.m_right {
+	width: 140px;
+	height: 425px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.img_book {
+	height: 87px;
+	width: 55px;
+}
+
+.img_towel {
+	width: 78px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.brick {
+	background: repeat url('resources/brick.jpg');
+	width: 120px;
+	height: 70px;
+}
+
+
+
+
+
+/* ########################     BOITE VERTE  */
+
+.boiteverte {
+	float: left;
+	width: 510px;
+	height: 170px;
+	margin-top: 71px;
+	margin-left: -75px;
+	padding-left: 10px;
+	background-color: #88FF89;
+	font-family: serif;
+}
+
+.boiteverte p {
+	font-size: 21px;
+	margin-bottom: -1px;
+	margin-top: 10px;
+	line-height: 100%;
+}
+/* ################    TEXTE  */
+.bold {
+	font-size: 37px;
+	letter-spacing: 100%;
+}
+
+.textshadow {
+	text-shadow: 7px 7px 8px rgba(255, 77, 49, 1);
+}
+
+.italic {
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 15px;
+}
+
+.text1 {
+	letter-spacing: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.text2 {
+	letter-spacing: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.text3 {
+	letter-spacing: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/* ################    CHAMP DE SAISIE  */
+.champtext {
+	width: 380px;
+}
+
+.champ {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+

@@ -1,0 +1,33 @@
+
+<- Vertex ----------------------------------------------------------------------
+Your documentation here.
+The Vertex class handles verties in 3d space.
+
+An instance can be contructed from either xyzw coordinates and a RGB value:
+new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );
+new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'color' => $green ) );
+
+The class provides the following methods :
+Vertex		getColor();
+Vertex		setColor($color);
+Adds each color constitutive and returns a new Color instance.
+
+Vertex		getX();
+Vertex		setX($x);
+Adds a vertex coordinate `x`
+
+Vertex		getY();
+Vertex		setY($y);
+Adds a vertex coordinate `y`
+
+Vertex		getZ();
+Vertex		setZ($z);
+Adds a vertex coordinate `z`
+
+Vertex		getW();
+Vertex		setW($w);
+Adds a vertex coordinate `w`
+
+Active verbose mode
+Vertex::$verbose = True;   (false by default)
+---------------------------------------------------------------------- Vertex ->

@@ -1,0 +1,279 @@
+/*
+doft.css
+########
+
+par gcaron
+*/
+* {
+	/*border: 1px solid red;*/
+}
+/* MISE EN PAGE GLOBALE */
+
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* FIN RESET */
+.bg:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(resources/doft.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    opacity: 0.2;
+    background-position-y: -77px;
+    }
+body
+{
+    background-color: #505050;
+}
+form
+{
+    margin-left: 10px;
+}
+    div.site
+    {
+        vertical-align: top;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1420px;
+        z-index: 0;
+        height: auto;
+    }
+    header
+    {
+        width: 1420px;
+        height:137px;
+        background-color: #909090;
+        margin-top: 18px;
+        z-index: 0;
+        display: inline-block;
+    }
+    div.logo
+    {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 7px;
+    }
+    div.zoom
+    {
+        display: inline-block;
+        float: right;
+        height: 185px
+    }
+    div.close
+    {
+        display: inline-block;
+        width: 25px;
+        float: right;
+    }
+    div.lmenu
+    {
+        display: inline-block;
+        vertical-align: top;
+        background-color: #909090;
+        width: 140px;
+        height: 425px;
+        min-height: 175px;
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    div.contente
+    {
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        background-color: #909090;
+        width: 999px;
+        height: 562px;
+        margin-top: 20px;
+        margin-left: 28px;
+        padding: 10px;
+    }
+    div.rmenu
+    {
+        display: inline-block;
+        vertical-align: top;
+        background-color: #909090;
+        width: 140px;
+        height: 425px;
+        min-height: 175px;
+        margin-top: 20px;
+        margin-left: 24px;
+        text-align: center;
+    }
+    div.brick
+    {
+        background-image: url("resources/brick.jpg");
+        background-repeat: repeat-x repeat-y;
+        width: 120px;
+        height:70px;
+        margin-left: 13px;
+        margin-top: -2px;
+    }
+    .ombre
+    {
+        -moz-box-shadow: 10px 10px 5px 0px #000;
+        -webkit-box-shadow: 10px 10px 5px 0px #000;
+        -o-box-shadow: 10px 10px 5px 0px #000;
+        box-shadow: 10px 10px 5px 0px #000;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .ombre2
+    {
+        text-shadow: 2px 5px 2px red;
+        /*font-size: 14px;*/
+    }
+    div.form
+    {
+        margin-top: -77px;
+        margin-left: -44px;
+        width: 514px;
+        height: 164px;
+        background-color: #88ff89;
+        position: relative;
+        padding: 3px;
+    }
+    input[type=button]
+    {
+        /*padding: 3px 13px;*/
+        font-size: 13px;
+        width: 78px;
+        margin-left: 7px;
+    }
+    div#ital
+    {
+        margin-top: 10px;
+    }
+    p
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000;
+        font-size: 1.14em;
+        font-stretch: normal;
+    }
+    div.text
+    {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    p span.italic
+    {
+        font-style: italic;
+    }
+    p span.ordi
+    {
+        text-shadow: 7px 7px 8px #FF0000;
+    }
+    p span.gras
+    {
+        font-family: serif;
+        font-size: 2.18em;
+    }
+    p span.ita
+    {
+        font-style: italic;
+    }
+    img.tour
+    {
+        border: red 5px solid;
+        border-radius: 5px;
+    }
+    .bas
+    {
+        margin-top: 85px;
+    }
+    input[type=text]
+    {
+    width: 74%;
+    }
+    img#avancer
+    {
+        margin-top: 9px;
+    }
+    img#prendre
+    {
+        margin-left: -3px;
+        margin-top: 1px;
+    }
+    img#utiliser
+    {
+        margin-left: -5px;
+        margin-top: 0px;
+    }
+    img#book
+    {
+        margin-left: 2px;
+        margin-top: 15px;
+    }
+    img#towel
+    {
+        margin-left: 1px;
+        margin-top: 9px;
+    }
+    img#oeil
+    {
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+    img#fermer
+    {
+        margin-left: -4px;
+        margin-top: 75px;
+    }
+    img#reload
+    {
+        margin-left: -3px;
+        margin-top: 10px;
+    }

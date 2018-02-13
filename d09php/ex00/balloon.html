@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Balloon</title>
+
+		<script>
+			// Colors as :       #RED___       #GREEN_       #BLUE__
+			var color     = {0: '#C4310C', 1: '#80D115', 2: '#1E3887'};
+			var colorId   = 0;
+			var size      = 200;
+
+
+			window.onload = function () {
+
+				// Get the first element in the document with id="#example":
+				// Use as: document.querySelector(".example");
+				balloon = document.querySelector("#balloon");
+
+				// Use as: element.addEventListener(event, function)
+				balloon.addEventListener("click", onClick);
+				balloon.addEventListener("mouseleave", onMouse);
+			}
+
+
+			function onMouse(){
+				size -= 5;
+
+				if (size    < 200) { size = 200; }
+
+				colorId--;
+
+				if (colorId < 0) { colorId = 2; }
+
+				onRefresh(colorId);
+			}
+
+
+
+			function onClick() {
+				size += 10;
+				if (size    > 420) { size = 200; }
+
+				colorId++;
+
+				if (colorId > 2) { colorId = 0; }
+
+				onRefresh(colorId);
+			}
+
+
+
+			function onRefresh(colorIndex){
+				balloon.style.height          = size + 'px';
+				balloon.style.width           = size + 'px';
+				balloon.style.backgroundColor = color[colorId];
+			}
+
+		</script>
+
+
+		<style>
+			div.balloon {
+				height:           200px;
+				width:            200px;
+				background-color: #C4310C;
+				border-radius:    50%;
+				box-shadow:       30px 30px 20px #CCC;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div class="balloon" id="balloon">
+		</div>
+	</body>
+</html>

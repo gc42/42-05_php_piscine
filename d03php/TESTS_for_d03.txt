@@ -1,0 +1,34 @@
+d03
+
+ex01
+	http://e3r9p6.42.fr:8100/d03/ex01/phpinfo.php
+
+ex02
+curl 'http://localhost:8100/d03/ex02/print_get.php?login=mmontinet'
+curl 'http://localhost:8100/d03/ex02/print_get.php?gdb=pied2biche&barry=barreamine'
+curl 'http://localhost:8100/d03/ex02/print_get.php?gdb=pied2biche&barry=barreamine&toto=tarte&voiture=audi'
+
+ex03
+curl -c cook.txt 'http://localhost:8100/d03/ex03/cookie_crisp.php?action=set&name=plat&value=choucroute'
+curl -b cook.txt 'http://localhost:8100/d03/ex03/cookie_crisp.php?action=get&name=plat'
+curl -c cook.txt 'http://localhost:8100/d03/ex03/cookie_crisp.php?action=del&name=plat'
+curl -b cook.txt 'http://localhost:8100/d03/ex03/cookie_crisp.php?action=get&name=plat'
+
+ex04
+http://e3r9p6.42.fr:8100/d03/ex04/raw_text.php
+curl 'http://e3r9p6.42.fr:8100/d03/ex04/raw_text.php'
+
+ex05
+curl --head http://e3r9p6.42.fr:8100/d03/ex05/read_img.php
+(chrome:)   http://e3r9p6.42.fr:8100/d03/ex05/read_img.php
+=> on peut verifier le lien dans Inspect>Sources
+
+ex06
+curl    --user zaz:jaimelespetitsponeys http://localhost:8100/d03/ex06/members_only.php
+curl -v --user root:root                http://localhost:8100/d03/ex06/members_only.php
+
+curl    --user zaz:jaimelespetitsponeys http://e3r9p6.42.fr:8100/d03/ex06/members_only.php
+curl -v --user root:root                http://e3r9p6.42.fr:8100/d03/ex06/members_only.php
+
+
+
