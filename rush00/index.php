@@ -1,10 +1,13 @@
 <?php
-	$_SESSION['log'] = true;
-	$_SESSION['login'] = "Pieds de plomb !";
+	if (isset($_SESSION['pseudo']) && !empty($_SESSION['pseudo'])) {
+                echo '<a href="member.php">Bonjour '.$_SESSION['pseudo'].'</a> | <a href="logout.php">Déconnexion</a>';
+            } else {
+                echo '<a href="register.php">Inscription</a> | <a href="login.php">Connexion</a>';
+            }
 ?>
 <?php
 // Chargement du fichier header.php
-require 'header.php';
+require ('header.php');
 ?>
 
 
@@ -22,16 +25,16 @@ require 'header.php';
 							echo '</div>';
 						echo '</div>';
 
-					$nbr = 1;
-					while($nbr != 12)
+					$nbr = 0;
+					while($nbr != 4)
 					{
 
 						echo '<div class="product_tile">';
 							echo '<div class="product_tile__love">';
-								echo '<a href="" title="Ajouer à mon caddie"><img class="img_love" src="./images/ico_addtocart.png"/></a>';
+								echo '<a href="" title="Ajouer au panier"><img class="img_love" src="./images/icones/ico_addtocart.png"/></a>';
 							echo '</div>';
 							echo '<div class="product_tile__image_produit">';
-								echo '<img class="img_produit" src="./images/p_costumes1_0.jpeg" alt="NomProduit" title="NomProduit"/>';
+								echo '<img class="img_produit" src="./images/products/p_costumes1_0.jpeg" alt="NomProduit" title="NomProduit"/>';
 							echo '</div>';
 							echo '<div class="product_tile__texte">';
 								echo '<p>Description du produit avec un peu plus de texte qui decrit le tissus et la façon, ainsi que les conditions climatiques lors de sa fabrication. Aucun poste ne demarre ce matin, c\'est l\'enfer !!</p>';

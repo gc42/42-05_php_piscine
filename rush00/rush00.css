@@ -143,7 +143,6 @@ box-shadow: 0 10px 40px rgba(0,0,0,0.1);
 	height: 15px;
 	margin-left: 193px;
 	margin-bottom: 3px;
-	opacity: 0.5;
 }
 .product_tile__love > a >img:hover {
 	height: 17px;
@@ -300,118 +299,5 @@ box-shadow: 0 10px 40px rgba(0,0,0,0.1);
 
 
 /* MAGASINS ######################### */
-.mag_wrapper {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-}
-.mag_carte {
-	flex: 1.6;
-	margin-top: 0;
-}
-.mag_carte > img {
-	width: 100%;
-}
-.mag_liste {
-	flex: 1;
-	/*display: inline-block;*/
-
-}
-.mag_liste  li {
-	text-align: left;
-	color: #666;
-	margin: 0;
-}
-.mag_liste h2 {
-	display: block;
-	text-align: left;
-	font-family: Univers,sans-serif;
-	font-weight: 300;
-
-	font-size: 1.3rem;
-	line-height: 0.0rem;
-	margin-bottom: 0rem;
-	/*text-transform: uppercase;*/
-	color: #111;
-}
-.mag_liste_titre {
-	margin-left: 20px;
-	margin-bottom: 20px;
-	text-transform: uppercase;
-	font-size: 2.3rem;
-}
-
-.mag_liste p {
-	margin: 0;
-}
-
-/* PANIER ######################### */
-.caddy_wrapper {
-	display: flex;
-	justify-content: row
-}
-.caddy_left_products {
-	margin: 30px;
-	flex: 2;
-}
-.caddy_right_recap {
-	margin: 30px;
-	flex: 1;
-}
-.croix {
-	width: 30px;
-
-}
-
-/* TABLEAU ######################### */
-.tg  {
-	border-collapse:collapse;
-	border-spacing:0;
-	border-style:solid;
-	border-width:1px;
-	margin: 0px;
-	border: none;
 
 
-	color: #666;
-
-}
-.tg td {
-	font-family:Univers, sans-serif;
-	font-size:14px;
-	padding:2px 18px;
-	height: 70px;
-	overflow:hidden;
-	word-break:normal;
-}
-.tg .tg-baqh{
-	text-align:center;
-	vertical-align:top
-}
-.tg .tg-lqy6{
-	text-align:right;
-	vertical-align:top
-}
-.tg .tg-yw4l{
-	vertical-align:top
-}
-.tg-baqhn{
-	text-align:center;
-	vertical-align:top
-	background-color: $FFF;
-}
-@media screen and (max-width: 767px)
-{
-	.tg {
-		width: auto !important;
-		height: auto !important;
-	}
-	.tg col {
-		width: auto !important;
-		height: auto !important;
-	}
-	.tg-wrap {
-		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
-	}
-}

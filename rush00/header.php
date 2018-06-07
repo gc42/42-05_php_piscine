@@ -38,14 +38,30 @@
 						<a href="index.php" title="Retour acceuil"><img src="./images/42_nb.png" alt="Logo" title="Logo"/></a>
 					</div>
 					<div id="header_menu">
-						<a href="#">NOUVEAUTÉS</a>
-						<a href="#">PRÊT-À-PORTER</a>
-						<a href="#">CHAUSSURES</a>
-						<a href="#">ACCESSOIRES</a>
-						<a href="#">SOLDES</a>
+				
+				<!--  	
+						Ici le menu peut etre dynamique   
+						Sinon ecrire en dur
+						En cliquant dessus on ouvre la page 'categorie.php'
+						La variable "cat" aura l'id de la categorie
+						Et ainsi elle affichera les nfos de la categorie champ 'texte' dans 'categories'
+
+				-->
+				<div class="contentMenu">
+			<div id="header_menu">
+						<a href="categorie.php?cat=2">PRÊT-À-PORTER</a>
+						<a href="categorie.php?cat=3">CHAUSSURES</a>
+						<a href="categorie.php?cat=4">ACCESSOIRES</a>
+					</div>
+		</div>
+
+
+
+
 					</div>
 					<div id="header_user">
 						<?php
+						
 							if (isset($_SESSION['log']) && $_SESSION['log'] == TRUE)
 								echo '<span>My name is '.$_SESSION['login'].'</span>';
 							else
@@ -54,12 +70,12 @@
 					</div>
 					<div id="header_button_zone">
 						<a href="connexion.php" title="">
-							<img src="./images/ico_user.jpg"    alt="Se connecter ou s'inscrire"    title="Se connecter ou s'inscrire"/></a>
+							<img src="./images/icones/ico_user.jpg"    alt="Se connecter ou s'inscrire"    title="Se connecter ou s'inscrire"/></a>
 						<a href="magasins.php" title="">
-							<img src="./images/ico_pin_map.png" alt="Magasins"                      title="Magasins"/></a>
-						<a href="souhaits,php" title="">
-							<img src="./images/ico_coeur0.png"  alt="Afficher ma liste de souhaits" title="Afficher ma liste de souhaits"/></a>
+							<img src="./images/icones/ico_pin_map.png" alt="Magasins"                      title="Magasins"/></a>
+						<a href="souhaits.php" title="">
+							<img src="./images/icones/ico_coeur0.png"  alt="Afficher ma liste de souhaits" title="Afficher ma liste de souhaits"/></a>
 						<a href="panier.php" title="">
-							<img src="./images/ico_caddy0.png"  alt="Pannier et commande"           title="Pannier et commande"/></a>
+							<img src="./images/icones/ico_caddy0.png"  alt="Pannier et commande"           title="Pannier et commande"/></a>
 					</div>
 			</header>

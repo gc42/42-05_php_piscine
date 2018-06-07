@@ -28,10 +28,10 @@ require 'header.php';
 
 						echo '<div class="product_tile">';
 							echo '<div class="product_tile__love">';
-								echo '<a href="" title="Ajouer à mes favoris"><img class="img_love" src="./images/ico_coeur_noir0.png"/></a>';
+								echo '<a href="" title="Ajouer à mes favoris"><img class="img_love" src="./images/icones/ico_coeur_noir0.png"/></a>';
 							echo '</div>';
 							echo '<div class="product_tile__image_produit">';
-								echo '<img class="img_produit" src="./images/p_costumes1_0.jpeg" alt="NomProduit" title="NomProduit"/>';
+								echo '<img class="img_produit" src="./images/products/p_costumes1_0.jpeg" alt="NomProduit" title="NomProduit"/>';
 							echo '</div>';
 							echo '<div class="product_tile__texte">';
 								echo '<p>Description du produit avec un peu plus de texte qui decrit le tissus et la façon, ainsi que les conditions climatiques lors de sa fabrication. Aucun poste ne demarre ce matin, c\'est l\'enfer !!</p>';
